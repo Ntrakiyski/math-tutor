@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://math-tutor.local/schemas/topic.schema.json",
+  "title": "Math Tutor Topic",
+  "type": "object",
+  "required": [
+    "id",
+    "grade_band",
+    "domain_id",
+    "name_bg",
+    "description_bg",
+    "prerequisite_ids",
+    "mastery_evidence_bg",
+    "thinking_competency_ids",
+    "diagnostic_critical",
+    "curriculum_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "grade_band": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "domain_id": {
+      "type": "string"
+    },
+    "name_bg": {
+      "type": "string"
+    },
+    "description_bg": {
+      "type": "string"
+    },
+    "prerequisite_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mastery_evidence_bg": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "thinking_competency_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "diagnostic_critical": {
+      "type": "boolean"
+    },
+    "curriculum_status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

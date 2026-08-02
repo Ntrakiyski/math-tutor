@@ -1,0 +1,1110 @@
+{
+  "version": "0.1.0",
+  "item_count": 32,
+  "items": [
+    {
+      "id": "slice_pv_01",
+      "topic_ids": [
+        "g2_place_value_1000"
+      ],
+      "phase": "teach",
+      "block_type": "place_value_chart",
+      "prompt_bg": "Построй числото 342 с 3 стотици, 4 десетици и 2 единици.",
+      "config": {
+        "target": 342,
+        "columns": [
+          "hundreds",
+          "tens",
+          "ones"
+        ],
+        "interaction": "increment_decrement"
+      },
+      "answer": {
+        "kind": "object",
+        "value": {
+          "hundreds": 3,
+          "tens": 4,
+          "ones": 2
+        }
+      },
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "support_level": 2,
+      "difficulty": 0.2,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_pv_02",
+      "topic_ids": [
+        "g2_place_value_1000"
+      ],
+      "phase": "guided",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое разлагане показва числото 507?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "5 + 0 + 7"
+          },
+          {
+            "id": "B",
+            "label_bg": "500 + 7"
+          },
+          {
+            "id": "C",
+            "label_bg": "50 + 7"
+          },
+          {
+            "id": "D",
+            "label_bg": "500 + 70"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "misconception_tags": [
+        "digit_vs_place_value"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "support_level": 1,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_pv_03",
+      "topic_ids": [
+        "g2_compare_3digit"
+      ],
+      "phase": "practice",
+      "block_type": "number_line",
+      "prompt_bg": "Постави 380 на числовата ос между 300 и 400.",
+      "config": {
+        "min": 300,
+        "max": 400,
+        "step": 10,
+        "target": 380,
+        "interaction": "tap"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 380,
+        "tolerance": 0
+      },
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "support_level": 1,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_pv_04",
+      "topic_ids": [
+        "g3_place_value_10000"
+      ],
+      "phase": "integrity",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В кое число цифрата 6 има стойност 600?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "6 042"
+          },
+          {
+            "id": "B",
+            "label_bg": "2 641"
+          },
+          {
+            "id": "C",
+            "label_bg": "4 216"
+          },
+          {
+            "id": "D",
+            "label_bg": "460"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "misconception_tags": [
+        "digit_vs_place_value"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern"
+      ],
+      "support_level": 0,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_pv_05",
+      "topic_ids": [
+        "g2_place_value_1000"
+      ],
+      "phase": "error_diagnosis",
+      "block_type": "error_spotter",
+      "prompt_bg": "Някой е написал: 462 = 4 + 60 + 2. Коя част е грешна?",
+      "config": {
+        "steps": [
+          {
+            "id": "s1",
+            "label_bg": "Цифрата 4 е в стотиците, затова означава 400."
+          },
+          {
+            "id": "s2",
+            "label_bg": "Цифрата 6 е в десетиците, затова означава 60."
+          },
+          {
+            "id": "s3",
+            "label_bg": "Цифрата 2 е в единиците, затова означава 2."
+          },
+          {
+            "id": "s4",
+            "label_bg": "Разлагането трябва да бъде 400 + 60 + 2."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "s1"
+      },
+      "misconception_tags": [
+        "digit_vs_place_value"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "iteration"
+      ],
+      "support_level": 1,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_pv_06",
+      "topic_ids": [
+        "g2_place_value_1000"
+      ],
+      "phase": "mastery",
+      "block_type": "numeric_input",
+      "prompt_bg": "Кое число има 7 стотици, 0 десетици и 9 единици?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 709,
+        "tolerance": 0
+      },
+      "thinking_competency_ids": [
+        "reconstruction"
+      ],
+      "support_level": 0,
+      "difficulty": 0.35,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_01",
+      "topic_ids": [
+        "g2_add_no_regroup"
+      ],
+      "phase": "warmup",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 24 + 13?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 37,
+        "tolerance": 0
+      },
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "support_level": 0,
+      "difficulty": 0.15,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_02",
+      "topic_ids": [
+        "g2_add_regroup"
+      ],
+      "phase": "teach",
+      "block_type": "base_ten_blocks",
+      "prompt_bg": "Покажи 28 + 17. Събери единиците и размени 10 единици за 1 десетица.",
+      "config": {
+        "operation": "addition",
+        "left": 28,
+        "right": 17,
+        "interaction": "drag_regroup",
+        "show_columns": true
+      },
+      "answer": {
+        "kind": "number",
+        "value": 45,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "forgot_carry"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "reconstruction"
+      ],
+      "support_level": 3,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_03",
+      "topic_ids": [
+        "g2_add_regroup"
+      ],
+      "phase": "guided",
+      "block_type": "step_choice",
+      "prompt_bg": "При 38 + 27, какво трябва да направим след 8 + 7 = 15?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Записваме 15 в единиците."
+          },
+          {
+            "id": "B",
+            "label_bg": "Записваме 5 единици и пренасяме 1 десетица."
+          },
+          {
+            "id": "C",
+            "label_bg": "Изваждаме 10."
+          },
+          {
+            "id": "D",
+            "label_bg": "Спираме, защото 15 е крайният отговор."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "misconception_tags": [
+        "forgot_carry"
+      ],
+      "thinking_competency_ids": [
+        "next_action",
+        "reconstruction"
+      ],
+      "support_level": 2,
+      "difficulty": 0.35,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_04",
+      "topic_ids": [
+        "g2_add_regroup"
+      ],
+      "phase": "practice",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 46 + 38?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 84,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "forgot_carry"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "support_level": 1,
+      "difficulty": 0.4,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_05",
+      "topic_ids": [
+        "g3_add_multidigit"
+      ],
+      "phase": "integrity",
+      "block_type": "error_spotter",
+      "prompt_bg": "При 267 + 158 е получено 315. Къде най-вероятно е грешката?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Не е пренесена десетица след 7 + 8."
+          },
+          {
+            "id": "B",
+            "label_bg": "Числата са подредени правилно и няма грешка."
+          },
+          {
+            "id": "C",
+            "label_bg": "Трябвало е да се изважда."
+          },
+          {
+            "id": "D",
+            "label_bg": "Стотиците не трябва да се събират."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "misconception_tags": [
+        "forgot_carry"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "iteration"
+      ],
+      "support_level": 0,
+      "difficulty": 0.55,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_add_06",
+      "topic_ids": [
+        "g3_add_multidigit"
+      ],
+      "phase": "mastery",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 589 + 276?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 865,
+        "tolerance": 0
+      },
+      "thinking_competency_ids": [
+        "estimation_check"
+      ],
+      "support_level": 0,
+      "difficulty": 0.55,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_01",
+      "topic_ids": [
+        "g2_sub_no_regroup"
+      ],
+      "phase": "warmup",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 57 − 24?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 33,
+        "tolerance": 0
+      },
+      "support_level": 0,
+      "difficulty": 0.15,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_02",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "teach",
+      "block_type": "base_ten_blocks",
+      "prompt_bg": "Покажи 42 − 18. Размени 1 десетица за 10 единици, преди да махнеш 8 единици.",
+      "config": {
+        "operation": "subtraction",
+        "left": 42,
+        "right": 18,
+        "interaction": "drag_regroup",
+        "show_columns": true
+      },
+      "answer": {
+        "kind": "number",
+        "value": 24,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger",
+        "forgot_borrow"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "decomposition",
+        "reconstruction"
+      ],
+      "support_level": 4,
+      "difficulty": 0.35,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_03",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "guided",
+      "block_type": "binary_choice",
+      "prompt_bg": "При 52 − 38 можем ли директно да извадим 8 единици от 2 единици?",
+      "config": {
+        "options": [
+          {
+            "id": "yes",
+            "label_bg": "Да"
+          },
+          {
+            "id": "no",
+            "label_bg": "Не"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "no"
+      },
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger"
+      ],
+      "thinking_competency_ids": [
+        "known_unknown",
+        "next_action"
+      ],
+      "support_level": 3,
+      "difficulty": 0.25,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_04",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "guided",
+      "block_type": "step_choice",
+      "prompt_bg": "Какво трябва да направим първо при 52 − 38?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Разменяме 1 десетица за 10 единици."
+          },
+          {
+            "id": "B",
+            "label_bg": "Изваждаме 5 − 3."
+          },
+          {
+            "id": "C",
+            "label_bg": "Събираме 52 + 38."
+          },
+          {
+            "id": "D",
+            "label_bg": "Разменяме 1 единица за 10 десетици."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "misconception_tags": [
+        "forgot_borrow"
+      ],
+      "thinking_competency_ids": [
+        "next_action"
+      ],
+      "support_level": 2,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_05",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "practice",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 52 − 38?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 14,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger",
+        "forgot_borrow"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "support_level": 1,
+      "difficulty": 0.4,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_06",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "error_diagnosis",
+      "block_type": "error_spotter",
+      "prompt_bg": "Някой е решил 63 − 27 = 44, защото е извадил 3 от 7 и 2 от 6. Каква е грешката?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "В единиците е извадено по-малкото от по-голямото, без прегрупиране."
+          },
+          {
+            "id": "B",
+            "label_bg": "Трябвало е да се събира."
+          },
+          {
+            "id": "C",
+            "label_bg": "Грешка няма."
+          },
+          {
+            "id": "D",
+            "label_bg": "6 − 2 трябва да бъде 5."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "iteration"
+      ],
+      "support_level": 1,
+      "difficulty": 0.5,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_07",
+      "topic_ids": [
+        "g3_sub_multidigit"
+      ],
+      "phase": "teach",
+      "block_type": "place_value_chart",
+      "prompt_bg": "За 403 − 178 трябва да прегрупираме през нулата. Покажи как 4 стотици стават 3 стотици, 10 десетици, после 9 десетици и 10 единици.",
+      "config": {
+        "operation": "subtraction",
+        "left": 403,
+        "right": 178,
+        "interaction": "guided_regroup_chain"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 225,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "zero_regrouping"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "representation_switching"
+      ],
+      "support_level": 4,
+      "difficulty": 0.65,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_08",
+      "topic_ids": [
+        "g3_sub_multidigit"
+      ],
+      "phase": "practice",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 403 − 178?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 225,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "zero_regrouping"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "support_level": 1,
+      "difficulty": 0.65,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_09",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "integrity",
+      "block_type": "numeric_input",
+      "prompt_bg": "В магазин има 61 тетрадки. Продадени са 28. Колко остават?",
+      "config": {
+        "input_mode": "integer",
+        "unit_bg": "тетрадки"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 33,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "surface_operation_keyword"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "reconstruction"
+      ],
+      "support_level": 0,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_sub_10",
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "phase": "mastery",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 81 − 46?",
+      "config": {
+        "input_mode": "integer"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 35,
+        "tolerance": 0
+      },
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check"
+      ],
+      "support_level": 0,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_01",
+      "topic_ids": [
+        "g2_problem_parts",
+        "g3_two_step_word"
+      ],
+      "phase": "teach",
+      "block_type": "known_unknown_sort",
+      "prompt_bg": "Има 4 пакета с по 6 карти и още 5 отделни карти. Търсим общия брой. Раздели информацията на известно и неизвестно.",
+      "config": {
+        "cards": [
+          {
+            "id": "c1",
+            "label_bg": "4 пакета"
+          },
+          {
+            "id": "c2",
+            "label_bg": "6 карти във всеки пакет"
+          },
+          {
+            "id": "c3",
+            "label_bg": "още 5 карти"
+          },
+          {
+            "id": "c4",
+            "label_bg": "общият брой карти"
+          }
+        ],
+        "buckets": [
+          {
+            "id": "known",
+            "label_bg": "Известно"
+          },
+          {
+            "id": "unknown",
+            "label_bg": "Неизвестно"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "buckets",
+        "value": {
+          "known": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "unknown": [
+            "c4"
+          ]
+        }
+      },
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown"
+      ],
+      "support_level": 3,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_02",
+      "topic_ids": [
+        "g3_two_step_word"
+      ],
+      "phase": "guided",
+      "block_type": "multi_select",
+      "prompt_bg": "Кои две по-малки задачи ще помогнат?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Колко карти има в 4-те пакета?"
+          },
+          {
+            "id": "B",
+            "label_bg": "Какъв цвят са картите?"
+          },
+          {
+            "id": "C",
+            "label_bg": "Колко са картите след добавяне на още 5?"
+          },
+          {
+            "id": "D",
+            "label_bg": "Колко струва пакетът?"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "set",
+        "value": [
+          "A",
+          "C"
+        ]
+      },
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "support_level": 2,
+      "difficulty": 0.35,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_03",
+      "topic_ids": [
+        "g3_order_steps"
+      ],
+      "phase": "guided",
+      "block_type": "step_order",
+      "prompt_bg": "Подреди плана.",
+      "config": {
+        "steps": [
+          {
+            "id": "s1",
+            "label_bg": "Намирам картите в пакетите: 4 × 6."
+          },
+          {
+            "id": "s2",
+            "label_bg": "Добавям 5-те отделни карти."
+          },
+          {
+            "id": "s3",
+            "label_bg": "Проверявам дали отговорът е за всички карти."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "sequence",
+        "value": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "support_level": 2,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_04",
+      "topic_ids": [
+        "g3_two_step_word"
+      ],
+      "phase": "practice",
+      "block_type": "numeric_input",
+      "prompt_bg": "4 пакета с по 6 карти и още 5 карти. Колко карти са общо?",
+      "config": {
+        "input_mode": "integer",
+        "unit_bg": "карти"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 29,
+        "tolerance": 0
+      },
+      "thinking_competency_ids": [
+        "reconstruction"
+      ],
+      "support_level": 1,
+      "difficulty": 0.35,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_05",
+      "topic_ids": [
+        "g4_multistep_word"
+      ],
+      "phase": "integrity",
+      "block_type": "step_choice",
+      "prompt_bg": "За училищен проект трябват 3 снимки за всяка от 4 теми и още 2 снимки за заглавната страница. Каква е първата полезна стъпка?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Намирам снимките за 4-те теми: 3 × 4."
+          },
+          {
+            "id": "B",
+            "label_bg": "Добавям 2 към 4."
+          },
+          {
+            "id": "C",
+            "label_bg": "Делим 3 на 4."
+          },
+          {
+            "id": "D",
+            "label_bg": "Избирам цвета на заглавната страница."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "thinking_competency_ids": [
+        "identify_goal",
+        "decomposition",
+        "next_action"
+      ],
+      "support_level": 0,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_06",
+      "topic_ids": [
+        "g4_multistep_word"
+      ],
+      "phase": "integrity",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кой израз намира общия брой снимки?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "3 + 4 + 2"
+          },
+          {
+            "id": "B",
+            "label_bg": "3 × 4 + 2"
+          },
+          {
+            "id": "C",
+            "label_bg": "3 × (4 + 2)"
+          },
+          {
+            "id": "D",
+            "label_bg": "4 ÷ 3 + 2"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "thinking_competency_ids": [
+        "reconstruction"
+      ],
+      "support_level": 0,
+      "difficulty": 0.45,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_07",
+      "topic_ids": [
+        "g4_check_solution"
+      ],
+      "phase": "mastery",
+      "block_type": "binary_choice",
+      "prompt_bg": "Получен е отговор 14 снимки. Разумен ли е той за 3 × 4 + 2?",
+      "config": {
+        "options": [
+          {
+            "id": "yes",
+            "label_bg": "Да, защото 12 + 2 = 14."
+          },
+          {
+            "id": "no",
+            "label_bg": "Не, защото отговорът трябва да е по-малък от 4."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "yes"
+      },
+      "thinking_competency_ids": [
+        "estimation_check",
+        "reconstruction"
+      ],
+      "support_level": 0,
+      "difficulty": 0.3,
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "slice_dec_08",
+      "topic_ids": [
+        "g3_two_step_word",
+        "g4_multistep_word"
+      ],
+      "phase": "life_transfer",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Имаш презентация след две седмици. Коя е най-добрата първа малка стъпка днес?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Да завърша цялата презентация веднага."
+          },
+          {
+            "id": "B",
+            "label_bg": "Да намеря три надеждни източника и да запиша основните идеи."
+          },
+          {
+            "id": "C",
+            "label_bg": "Да чакам до деня преди представянето."
+          },
+          {
+            "id": "D",
+            "label_bg": "Да избера анимации преди да знам темата."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action"
+      ],
+      "support_level": 0,
+      "difficulty": 0.35,
+      "review_status": "original_product_life_transfer_item"
+    },
+    {
+      "id": "slice_dec_09",
+      "topic_ids": [
+        "g4_check_solution"
+      ],
+      "phase": "reflection",
+      "block_type": "reflection_choice",
+      "prompt_bg": "Кое ти помогна най-много в тази задача?",
+      "config": {
+        "options": [
+          {
+            "id": "visual",
+            "label_bg": "Да я видя с блокове."
+          },
+          {
+            "id": "steps",
+            "label_bg": "Да я разделя на стъпки."
+          },
+          {
+            "id": "example",
+            "label_bg": "Да видя подобен пример."
+          },
+          {
+            "id": "independent",
+            "label_bg": "Да опитам сама."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "reflection",
+        "value": "any"
+      },
+      "thinking_competency_ids": [
+        "iteration"
+      ],
+      "support_level": 0,
+      "difficulty": 0.0,
+      "review_status": "persona_evidence_not_scored"
+    },
+    {
+      "id": "slice_dec_10",
+      "topic_ids": [
+        "g4_check_solution"
+      ],
+      "phase": "confidence",
+      "block_type": "confidence_check",
+      "prompt_bg": "Колко сигурна си, че можеш да решиш подобна задача с други числа?",
+      "config": {
+        "scale": [
+          {
+            "id": "guess",
+            "label_bg": "По-скоро налучквам"
+          },
+          {
+            "id": "unsure",
+            "label_bg": "Не съм сигурна"
+          },
+          {
+            "id": "mostly",
+            "label_bg": "Мисля, че мога"
+          },
+          {
+            "id": "certain",
+            "label_bg": "Мога да обясня защо"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "confidence",
+        "value": "any"
+      },
+      "support_level": 0,
+      "difficulty": 0.0,
+      "review_status": "confidence_evidence_not_scored"
+    }
+  ]
+}

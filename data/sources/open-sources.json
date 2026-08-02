@@ -1,0 +1,62 @@
+{
+  "version": "0.1.0",
+  "last_checked": "2026-08-02",
+  "sources": [
+    {
+      "id": "marble",
+      "name": "Marble Skill Taxonomy",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "role": "foundational prerequisite graph",
+      "decision": "use_with_attribution_and_share_alike_review"
+    },
+    {
+      "id": "manim_ce",
+      "name": "Manim Community",
+      "url": "https://github.com/ManimCommunity/manim",
+      "role": "controlled mathematical animations",
+      "decision": "use"
+    },
+    {
+      "id": "deepmind_math",
+      "name": "DeepMind Mathematics Dataset",
+      "url": "https://github.com/google-deepmind/mathematics_dataset",
+      "role": "question-generator patterns",
+      "decision": "adapt_generator_concepts"
+    },
+    {
+      "id": "illustrative_math",
+      "name": "Illustrative Mathematics first edition",
+      "url": "https://illustrativemathematics.org/",
+      "role": "lesson and assessment structures",
+      "decision": "edition_specific_license_review"
+    },
+    {
+      "id": "openstax",
+      "name": "OpenStax original editions",
+      "url": "https://openstax.org/",
+      "role": "prealgebra and algebra reference",
+      "decision": "edition_specific_license_review"
+    },
+    {
+      "id": "copilotkit",
+      "name": "CopilotKit / AG-UI",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "role": "optional agent-to-UI acceleration or fallback",
+      "decision": "not_primary_for_first_spike"
+    },
+    {
+      "id": "eve",
+      "name": "Eve",
+      "url": "https://github.com/vercel/eve",
+      "role": "primary durable agent runtime",
+      "decision": "primary_integration_spike"
+    },
+    {
+      "id": "insforge",
+      "name": "InsForge",
+      "url": "https://insforge.dev/",
+      "role": "MVP persistence and backend services",
+      "decision": "use"
+    }
+  ]
+}

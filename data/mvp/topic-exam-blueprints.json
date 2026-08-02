@@ -1,0 +1,4333 @@
+{
+  "version": "0.1.0",
+  "blueprint_count": 66,
+  "blueprints": [
+    {
+      "topic_id": "g2_place_value_1000",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_01"
+      ],
+      "teaching_item_ids": [
+        "slice_pv_01",
+        "slice_pv_02",
+        "slice_pv_05",
+        "slice_pv_06"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_compare_3digit",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_02"
+      ],
+      "teaching_item_ids": [
+        "slice_pv_03"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_add_no_regroup",
+      "grade_band": 2,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [
+        "slice_add_01"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_add_regroup",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_03"
+      ],
+      "teaching_item_ids": [
+        "slice_add_02",
+        "slice_add_03",
+        "slice_add_04"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_sub_no_regroup",
+      "grade_band": 2,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [
+        "slice_sub_01"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_sub_regroup",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_04"
+      ],
+      "teaching_item_ids": [
+        "slice_sub_02",
+        "slice_sub_03",
+        "slice_sub_04",
+        "slice_sub_05",
+        "slice_sub_06",
+        "slice_sub_09",
+        "slice_sub_10"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g2_mult_equal_groups",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g2_div_sharing",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g2_measure_units",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g2_one_step_word",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_08",
+        "diag_g2_09"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g2_problem_parts",
+      "grade_band": 2,
+      "diagnostic_item_ids": [
+        "diag_g2_10"
+      ],
+      "teaching_item_ids": [
+        "slice_dec_01"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g3_place_value_10000",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_01"
+      ],
+      "teaching_item_ids": [
+        "slice_pv_04"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g3_add_multidigit",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_02"
+      ],
+      "teaching_item_ids": [
+        "slice_add_05",
+        "slice_add_06"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g3_sub_multidigit",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_03"
+      ],
+      "teaching_item_ids": [
+        "slice_sub_07",
+        "slice_sub_08"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g3_mult_facts",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_04"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g3_div_facts",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g3_mult_2digit_1digit",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g3_fraction_unit",
+      "grade_band": 3,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "blueprint_only_requires_item_generation"
+    },
+    {
+      "topic_id": "g3_fraction_part_whole",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g3_perimeter",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_08"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g3_two_step_word",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_09"
+      ],
+      "teaching_item_ids": [
+        "slice_dec_01",
+        "slice_dec_02",
+        "slice_dec_04",
+        "slice_dec_08"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g3_order_steps",
+      "grade_band": 3,
+      "diagnostic_item_ids": [
+        "diag_g3_10"
+      ],
+      "teaching_item_ids": [
+        "slice_dec_03"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g4_large_natural_numbers",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_01"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_written_multiplication",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_02"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_written_division",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_03"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_fraction_compare_like_den",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_fraction_equivalence_basic",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_04"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_decimal_tenths_hundredths",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_unit_conversions",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_area_rectangle",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_08"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_angles",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_09"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g4_multistep_word",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_10"
+      ],
+      "teaching_item_ids": [
+        "slice_dec_05",
+        "slice_dec_06",
+        "slice_dec_08"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g4_check_solution",
+      "grade_band": 4,
+      "diagnostic_item_ids": [
+        "diag_g4_10"
+      ],
+      "teaching_item_ids": [
+        "slice_dec_07",
+        "slice_dec_09",
+        "slice_dec_10"
+      ],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_teaching_and_assessment"
+    },
+    {
+      "topic_id": "g5_fraction_compare_unlike",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_01"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_fraction_add_like",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_02"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_fraction_add_unlike",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_03"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_decimal_operations",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_04"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_divisibility",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_prime_factorization",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_percent_basic",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_ratio_basic",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_08"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_expression_substitution",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_09"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_one_step_equation",
+      "grade_band": 5,
+      "diagnostic_item_ids": [
+        "diag_g5_10"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g5_model_word_problem",
+      "grade_band": 5,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "blueprint_only_requires_item_generation"
+    },
+    {
+      "topic_id": "g6_negative_numbers",
+      "grade_band": 6,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "blueprint_only_requires_item_generation"
+    },
+    {
+      "topic_id": "g6_integer_operations",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_01",
+        "diag_g6_02"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_fraction_operations",
+      "grade_band": 6,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "blueprint_only_requires_item_generation"
+    },
+    {
+      "topic_id": "g6_proportion",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_03"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_percent_change",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_04"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_two_step_equation",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_distributive_property",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_circle",
+      "grade_band": 6,
+      "diagnostic_item_ids": [],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "blueprint_only_requires_item_generation"
+    },
+    {
+      "topic_id": "g6_volume",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_mean_probability",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_08",
+        "diag_g6_09"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g6_proportional_word",
+      "grade_band": 6,
+      "diagnostic_item_ids": [
+        "diag_g6_10"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_algebraic_simplification",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_01"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_monomials_polynomials",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_02"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_linear_equations",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_03"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_linear_inequalities",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_04"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_factorization",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_05"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_congruent_triangles",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_07"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_pythagorean",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_06"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_coordinate_graphs",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_08"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_data_interpretation",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_09"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_equation_modeling",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_10"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    },
+    {
+      "topic_id": "g7_exam_decomposition",
+      "grade_band": 7,
+      "diagnostic_item_ids": [
+        "diag_g7_10"
+      ],
+      "teaching_item_ids": [],
+      "mastery_blueprint": [
+        {
+          "slot": "direct",
+          "purpose": "core procedure or concept",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "numeric_variation",
+          "purpose": "same structure, changed values and layout",
+          "representation": "primary",
+          "support_level": 0
+        },
+        {
+          "slot": "representation_transfer",
+          "purpose": "same concept in a second representation",
+          "representation": "alternate",
+          "support_level": 0
+        },
+        {
+          "slot": "error_diagnosis",
+          "purpose": "identify first incorrect step and misconception",
+          "representation": "worked_solution",
+          "support_level": 0
+        },
+        {
+          "slot": "decomposition",
+          "purpose": "identify goal, knowns, unknowns, or next step",
+          "representation": "planning",
+          "support_level": 0
+        },
+        {
+          "slot": "novel_transfer",
+          "purpose": "unfamiliar context or reversed direction",
+          "representation": "novel",
+          "support_level": 0
+        }
+      ],
+      "retention_blueprint": [
+        {
+          "delay_hours": 24,
+          "slot": "retention_direct"
+        },
+        {
+          "delay_hours": 72,
+          "slot": "retention_transfer"
+        }
+      ],
+      "mastery_thresholds": {
+        "minimum_correct": 5,
+        "requires_direct": true,
+        "requires_novel_transfer": true,
+        "requires_independent_attempts": 4,
+        "max_hints_for_provisional_mastery": 1,
+        "retention_required_for_reliable_mastery": true
+      },
+      "mvp_content_status": "ready_for_placement_only"
+    }
+  ]
+}

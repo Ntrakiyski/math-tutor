@@ -1,0 +1,696 @@
+{
+  "version": "0.1.0",
+  "edge_count": 115,
+  "dependencies": [
+    {
+      "topic_id": "g2_compare_3digit",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_add_no_regroup",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_add_regroup",
+      "prerequisite_id": "g2_add_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_sub_no_regroup",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_sub_regroup",
+      "prerequisite_id": "g2_sub_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_sub_regroup",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_mult_equal_groups",
+      "prerequisite_id": "g2_add_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_div_sharing",
+      "prerequisite_id": "g2_mult_equal_groups",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_one_step_word",
+      "prerequisite_id": "g2_add_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_one_step_word",
+      "prerequisite_id": "g2_sub_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g2_problem_parts",
+      "prerequisite_id": "g2_one_step_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_place_value_10000",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_add_multidigit",
+      "prerequisite_id": "g2_add_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_add_multidigit",
+      "prerequisite_id": "g3_place_value_10000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_sub_multidigit",
+      "prerequisite_id": "g2_sub_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_sub_multidigit",
+      "prerequisite_id": "g3_place_value_10000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_mult_facts",
+      "prerequisite_id": "g2_mult_equal_groups",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_div_facts",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_div_facts",
+      "prerequisite_id": "g2_div_sharing",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_mult_2digit_1digit",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_mult_2digit_1digit",
+      "prerequisite_id": "g2_place_value_1000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_fraction_unit",
+      "prerequisite_id": "g2_div_sharing",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_fraction_part_whole",
+      "prerequisite_id": "g3_fraction_unit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_perimeter",
+      "prerequisite_id": "g2_measure_units",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_perimeter",
+      "prerequisite_id": "g2_add_no_regroup",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_two_step_word",
+      "prerequisite_id": "g2_one_step_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_two_step_word",
+      "prerequisite_id": "g3_add_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_two_step_word",
+      "prerequisite_id": "g3_sub_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g3_order_steps",
+      "prerequisite_id": "g3_two_step_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_large_natural_numbers",
+      "prerequisite_id": "g3_place_value_10000",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_written_multiplication",
+      "prerequisite_id": "g3_mult_2digit_1digit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_written_multiplication",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_written_division",
+      "prerequisite_id": "g3_div_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_written_division",
+      "prerequisite_id": "g4_written_multiplication",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_fraction_compare_like_den",
+      "prerequisite_id": "g3_fraction_part_whole",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_fraction_equivalence_basic",
+      "prerequisite_id": "g3_fraction_part_whole",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_decimal_tenths_hundredths",
+      "prerequisite_id": "g4_large_natural_numbers",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_decimal_tenths_hundredths",
+      "prerequisite_id": "g3_fraction_part_whole",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_unit_conversions",
+      "prerequisite_id": "g2_measure_units",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_unit_conversions",
+      "prerequisite_id": "g4_large_natural_numbers",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_area_rectangle",
+      "prerequisite_id": "g3_perimeter",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_area_rectangle",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_multistep_word",
+      "prerequisite_id": "g3_two_step_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_multistep_word",
+      "prerequisite_id": "g4_written_multiplication",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_multistep_word",
+      "prerequisite_id": "g4_written_division",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g4_check_solution",
+      "prerequisite_id": "g4_multistep_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_fraction_compare_unlike",
+      "prerequisite_id": "g4_fraction_equivalence_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_fraction_compare_unlike",
+      "prerequisite_id": "g4_fraction_compare_like_den",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_fraction_add_like",
+      "prerequisite_id": "g4_fraction_compare_like_den",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_fraction_add_unlike",
+      "prerequisite_id": "g5_fraction_add_like",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_fraction_add_unlike",
+      "prerequisite_id": "g5_fraction_compare_unlike",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_decimal_operations",
+      "prerequisite_id": "g4_decimal_tenths_hundredths",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_decimal_operations",
+      "prerequisite_id": "g3_add_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_decimal_operations",
+      "prerequisite_id": "g3_sub_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_divisibility",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_divisibility",
+      "prerequisite_id": "g3_div_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_prime_factorization",
+      "prerequisite_id": "g5_divisibility",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_prime_factorization",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_percent_basic",
+      "prerequisite_id": "g4_fraction_equivalence_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_percent_basic",
+      "prerequisite_id": "g4_decimal_tenths_hundredths",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_ratio_basic",
+      "prerequisite_id": "g3_fraction_part_whole",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_ratio_basic",
+      "prerequisite_id": "g3_div_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_expression_substitution",
+      "prerequisite_id": "g4_written_multiplication",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_expression_substitution",
+      "prerequisite_id": "g4_written_division",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_one_step_equation",
+      "prerequisite_id": "g3_add_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_one_step_equation",
+      "prerequisite_id": "g3_sub_multidigit",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_one_step_equation",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_one_step_equation",
+      "prerequisite_id": "g3_div_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_model_word_problem",
+      "prerequisite_id": "g4_multistep_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_model_word_problem",
+      "prerequisite_id": "g5_fraction_add_unlike",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_model_word_problem",
+      "prerequisite_id": "g5_decimal_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g5_model_word_problem",
+      "prerequisite_id": "g5_percent_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_negative_numbers",
+      "prerequisite_id": "g4_decimal_tenths_hundredths",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_integer_operations",
+      "prerequisite_id": "g6_negative_numbers",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_integer_operations",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_fraction_operations",
+      "prerequisite_id": "g5_fraction_add_unlike",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_fraction_operations",
+      "prerequisite_id": "g5_prime_factorization",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_proportion",
+      "prerequisite_id": "g5_ratio_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_proportion",
+      "prerequisite_id": "g5_one_step_equation",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_percent_change",
+      "prerequisite_id": "g5_percent_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_percent_change",
+      "prerequisite_id": "g5_decimal_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_two_step_equation",
+      "prerequisite_id": "g5_one_step_equation",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_two_step_equation",
+      "prerequisite_id": "g6_integer_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_distributive_property",
+      "prerequisite_id": "g5_expression_substitution",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_distributive_property",
+      "prerequisite_id": "g3_mult_facts",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_circle",
+      "prerequisite_id": "g4_area_rectangle",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_circle",
+      "prerequisite_id": "g5_decimal_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_volume",
+      "prerequisite_id": "g4_area_rectangle",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_volume",
+      "prerequisite_id": "g4_written_multiplication",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_mean_probability",
+      "prerequisite_id": "g4_written_division",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_mean_probability",
+      "prerequisite_id": "g5_fraction_add_like",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_proportional_word",
+      "prerequisite_id": "g6_proportion",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g6_proportional_word",
+      "prerequisite_id": "g5_model_word_problem",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_algebraic_simplification",
+      "prerequisite_id": "g6_distributive_property",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_algebraic_simplification",
+      "prerequisite_id": "g6_integer_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_monomials_polynomials",
+      "prerequisite_id": "g7_algebraic_simplification",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_monomials_polynomials",
+      "prerequisite_id": "g5_prime_factorization",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_linear_equations",
+      "prerequisite_id": "g6_two_step_equation",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_linear_equations",
+      "prerequisite_id": "g7_algebraic_simplification",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_linear_inequalities",
+      "prerequisite_id": "g7_linear_equations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_linear_inequalities",
+      "prerequisite_id": "g6_negative_numbers",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_factorization",
+      "prerequisite_id": "g7_monomials_polynomials",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_factorization",
+      "prerequisite_id": "g5_prime_factorization",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_congruent_triangles",
+      "prerequisite_id": "g4_angles",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_congruent_triangles",
+      "prerequisite_id": "g4_area_rectangle",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_pythagorean",
+      "prerequisite_id": "g7_linear_equations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_pythagorean",
+      "prerequisite_id": "g6_integer_operations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_pythagorean",
+      "prerequisite_id": "g4_angles",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_coordinate_graphs",
+      "prerequisite_id": "g6_negative_numbers",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_data_interpretation",
+      "prerequisite_id": "g6_mean_probability",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_data_interpretation",
+      "prerequisite_id": "g5_percent_basic",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_equation_modeling",
+      "prerequisite_id": "g7_linear_equations",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_equation_modeling",
+      "prerequisite_id": "g6_proportional_word",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_exam_decomposition",
+      "prerequisite_id": "g7_equation_modeling",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    },
+    {
+      "topic_id": "g7_exam_decomposition",
+      "prerequisite_id": "g4_check_solution",
+      "strength": "hard",
+      "reason_bg": "Необходимо предходно умение за стабилно разбиране на темата."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventId": "00000000-0000-0000-0000-000000000002",
+  "sessionId": "00000000-0000-0000-0000-000000000001",
+  "learnerId": "learner_sister",
+  "responseId": "resp_example_001",
+  "blockId": "block_example_001",
+  "contentItemId": "slice_sub_04",
+  "eventType": "submitted",
+  "occurredAt": "2026-08-02T12:00:00Z",
+  "payload": {
+    "answer": "A"
+  },
+  "metrics": {
+    "durationMs": 8200,
+    "changeCount": 0,
+    "hintCount": 0,
+    "confidence": "mostly",
+    "supportLevel": 2
+  }
+}

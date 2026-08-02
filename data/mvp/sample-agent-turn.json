@@ -1,0 +1,66 @@
+{
+  "protocolVersion": "1.0",
+  "responseId": "resp_example_001",
+  "sessionId": "00000000-0000-0000-0000-000000000001",
+  "learnerId": "learner_sister",
+  "mode": "teaching",
+  "objective": {
+    "topicIds": [
+      "g2_sub_regroup"
+    ],
+    "thinkingCompetencyIds": [
+      "decomposition",
+      "next_action"
+    ],
+    "reasonBg": "Повтаряща се грешка при изваждане без прегрупиране."
+  },
+  "blocks": [
+    {
+      "id": "block_example_001",
+      "type": "step_choice",
+      "promptBg": "Какво трябва да направим първо при 52 − 38?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Разменяме 1 десетица за 10 единици."
+          },
+          {
+            "id": "B",
+            "label_bg": "Изваждаме 5 − 3."
+          },
+          {
+            "id": "C",
+            "label_bg": "Събираме 52 + 38."
+          }
+        ]
+      },
+      "topicIds": [
+        "g2_sub_regroup"
+      ],
+      "thinkingCompetencyIds": [
+        "next_action"
+      ],
+      "supportLevel": 2,
+      "scored": true,
+      "submitMode": "explicit",
+      "accessibility": {}
+    }
+  ],
+  "evaluation": {
+    "contentItemId": "slice_sub_04",
+    "expectedAnswer": {
+      "kind": "option",
+      "value": "A"
+    },
+    "misconceptionTags": [
+      "forgot_borrow"
+    ],
+    "recordPersonaEvidence": true
+  },
+  "nextTurnPolicy": {
+    "waitFor": "learner_event",
+    "allowFreeText": true,
+    "maxRetries": 2
+  }
+}

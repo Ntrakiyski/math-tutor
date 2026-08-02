@@ -1,0 +1,342 @@
+{
+  "version": "0.1.0",
+  "language": "bg",
+  "principle": "Declared preferences create provisional hypotheses only; observed performance validates or rejects them.",
+  "steps": [
+    {
+      "id": "goal",
+      "block_type": "multi_select",
+      "prompt_bg": "Кое искаш най-много да стане по-лесно?",
+      "config": {
+        "max": 2,
+        "options": [
+          {
+            "id": "school",
+            "label_bg": "Да разбирам какво се случва в час"
+          },
+          {
+            "id": "homework",
+            "label_bg": "Да решавам домашните по-бързо"
+          },
+          {
+            "id": "exam",
+            "label_bg": "Да се подготвя за контролни и НВО"
+          },
+          {
+            "id": "confidence",
+            "label_bg": "Да не се отказвам, когато задачата изглежда трудна"
+          },
+          {
+            "id": "unknown",
+            "label_bg": "Още не знам"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "current_goal"
+      ]
+    },
+    {
+      "id": "stuck_reaction",
+      "block_type": "single_choice",
+      "prompt_bg": "Когато не знаеш как да започнеш, какво правиш най-често?",
+      "config": {
+        "options": [
+          {
+            "id": "guess",
+            "label_bg": "Избирам нещо набързо"
+          },
+          {
+            "id": "skip",
+            "label_bg": "Пропускам задачата"
+          },
+          {
+            "id": "ask",
+            "label_bg": "Питам някого"
+          },
+          {
+            "id": "breakdown",
+            "label_bg": "Опитвам да я разделя на части"
+          },
+          {
+            "id": "frustrated",
+            "label_bg": "Ядосвам се и спирам"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "help_seeking_style",
+        "surface_guessing_risk",
+        "frustration_response"
+      ]
+    },
+    {
+      "id": "session_length",
+      "block_type": "single_choice",
+      "prompt_bg": "Колко дълга да бъде една сесия в началото?",
+      "config": {
+        "options": [
+          {
+            "id": "5",
+            "label_bg": "Около 5 минути"
+          },
+          {
+            "id": "10",
+            "label_bg": "Около 10 минути"
+          },
+          {
+            "id": "15",
+            "label_bg": "Около 15 минути"
+          },
+          {
+            "id": "adaptive",
+            "label_bg": "Спирай, когато загубя концентрация"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "preferred_session_minutes"
+      ]
+    },
+    {
+      "id": "interaction",
+      "block_type": "single_choice",
+      "prompt_bg": "Как предпочиташ да отговаряш?",
+      "config": {
+        "options": [
+          {
+            "id": "buttons",
+            "label_bg": "С бутони и избори"
+          },
+          {
+            "id": "typing",
+            "label_bg": "Като пиша отговор"
+          },
+          {
+            "id": "drag",
+            "label_bg": "Като местя и подреждам неща"
+          },
+          {
+            "id": "mixed",
+            "label_bg": "Смесено"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "preferred_interaction"
+      ]
+    },
+    {
+      "id": "explanation_length",
+      "block_type": "single_choice",
+      "prompt_bg": "Колко обяснение искаш преди да опиташ?",
+      "config": {
+        "options": [
+          {
+            "id": "minimal",
+            "label_bg": "Едно изречение и опитвам"
+          },
+          {
+            "id": "example",
+            "label_bg": "Един кратък пример"
+          },
+          {
+            "id": "steps",
+            "label_bg": "Няколко ясни стъпки"
+          },
+          {
+            "id": "ask_me",
+            "label_bg": "Питай ме стъпка по стъпка"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "explanation_length",
+        "default_support_style"
+      ]
+    },
+    {
+      "id": "coach_style",
+      "block_type": "single_choice",
+      "prompt_bg": "Как да се държи математическият треньор?",
+      "config": {
+        "options": [
+          {
+            "id": "calm",
+            "label_bg": "Спокойно и подкрепящо"
+          },
+          {
+            "id": "direct",
+            "label_bg": "Кратко и директно"
+          },
+          {
+            "id": "challenge",
+            "label_bg": "Като предизвикателство"
+          },
+          {
+            "id": "playful",
+            "label_bg": "Забавно и игриво"
+          },
+          {
+            "id": "mentor",
+            "label_bg": "Като аниме ментор"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "coach_style"
+      ]
+    },
+    {
+      "id": "praise_style",
+      "block_type": "single_choice",
+      "prompt_bg": "Кое насърчение ти звучи най-добре?",
+      "config": {
+        "options": [
+          {
+            "id": "specific",
+            "label_bg": "Точно кое направих добре"
+          },
+          {
+            "id": "progress",
+            "label_bg": "Какво е по-добре от миналия път"
+          },
+          {
+            "id": "short",
+            "label_bg": "Само кратко „добра работа“"
+          },
+          {
+            "id": "challenge",
+            "label_bg": "Следващо по-трудно предизвикателство"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "praise_style"
+      ]
+    },
+    {
+      "id": "interests",
+      "block_type": "multi_select",
+      "prompt_bg": "Кои теми ти харесват? Избери до три.",
+      "config": {
+        "max": 3,
+        "options": [
+          {
+            "id": "anime",
+            "label_bg": "Аниме"
+          },
+          {
+            "id": "games",
+            "label_bg": "Игри"
+          },
+          {
+            "id": "music",
+            "label_bg": "Музика"
+          },
+          {
+            "id": "drawing",
+            "label_bg": "Рисуване"
+          },
+          {
+            "id": "animals",
+            "label_bg": "Животни"
+          },
+          {
+            "id": "sports",
+            "label_bg": "Спорт"
+          },
+          {
+            "id": "shopping",
+            "label_bg": "Пазаруване и цени"
+          },
+          {
+            "id": "none",
+            "label_bg": "Не искам задачи с теми"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "interest_contexts"
+      ]
+    },
+    {
+      "id": "challenge_tolerance",
+      "block_type": "single_choice",
+      "prompt_bg": "Когато задача е трудна, кое е по-добре?",
+      "config": {
+        "options": [
+          {
+            "id": "easier",
+            "label_bg": "Първо по-лесна версия"
+          },
+          {
+            "id": "hint",
+            "label_bg": "Малък намек"
+          },
+          {
+            "id": "visual",
+            "label_bg": "Да я видя по друг начин"
+          },
+          {
+            "id": "push",
+            "label_bg": "Да опитам още веднъж без помощ"
+          }
+        ]
+      },
+      "creates_hypotheses": [
+        "challenge_response",
+        "default_recovery_strategy"
+      ]
+    },
+    {
+      "id": "experience_sample_text",
+      "block_type": "experience_sample",
+      "prompt_bg": "Пробвай този начин: 42 − 18. Първо проверяваме дали можем да извадим 8 единици от 2 единици.",
+      "config": {
+        "mode": "short_text_then_binary_choice",
+        "expected": "no"
+      },
+      "creates_observations": [
+        "text_explanation_performance",
+        "response_time"
+      ]
+    },
+    {
+      "id": "experience_sample_visual",
+      "block_type": "experience_sample",
+      "prompt_bg": "Сега виж същата идея с десетици и единици.",
+      "config": {
+        "mode": "base_ten_blocks",
+        "operation": "subtraction",
+        "left": 42,
+        "right": 18,
+        "guided": true
+      },
+      "creates_observations": [
+        "visual_explanation_performance",
+        "interaction_preference"
+      ]
+    },
+    {
+      "id": "provisional_summary",
+      "block_type": "profile_confirmation",
+      "prompt_bg": "Това е първото ми предположение за начина, по който да учим. Можеш да поправиш всичко.",
+      "config": {
+        "fields": [
+          "current_goal",
+          "preferred_session_minutes",
+          "preferred_interaction",
+          "explanation_length",
+          "coach_style",
+          "praise_style",
+          "interest_contexts",
+          "default_recovery_strategy"
+        ]
+      },
+      "creates_observations": [
+        "profile_corrections"
+      ]
+    }
+  ]
+}

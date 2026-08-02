@@ -1,0 +1,64 @@
+{
+  "learnerId": "learner_sister",
+  "placement": {
+    "recommendedBand": 2,
+    "confidence": 0.78,
+    "domainBands": {
+      "number_sense": 2.8,
+      "arithmetic": 2.1,
+      "multiplicative": 2.4,
+      "word_problems": 2.0
+    },
+    "updatedAt": "2026-08-02T12:00:00Z"
+  },
+  "skillStates": [
+    {
+      "topicId": "g2_sub_regroup",
+      "state": "developing",
+      "mastery": 0.48,
+      "independence": 0.25,
+      "retention": 0.0,
+      "supportLevel": 2,
+      "misconceptionTags": [
+        "subtract_smaller_digit_from_larger"
+      ],
+      "lastAttemptAt": "2026-08-02T12:00:00Z"
+    }
+  ],
+  "decomposition": {
+    "identify_goal": 0.55,
+    "known_unknown": 0.45,
+    "decomposition": 0.3,
+    "next_action": 0.4,
+    "reconstruction": 0.25,
+    "estimation_check": 0.2
+  },
+  "persona": {
+    "explicitPreferences": {
+      "preferred_interaction": "buttons",
+      "coach_style": "mentor",
+      "interest_contexts": [
+        "anime"
+      ]
+    },
+    "hypotheses": [
+      {
+        "category": "representation",
+        "claimBg": "Блоковете по разреди може да помагат при прегрупиране.",
+        "status": "forming",
+        "confidence": 0.55,
+        "evidenceCount": 2
+      }
+    ],
+    "currentSessionState": {
+      "recentIncorrect": 1,
+      "attentionSignal": "stable"
+    }
+  },
+  "gamification": {
+    "xp": 35,
+    "achievementIds": [
+      "first_step"
+    ]
+  }
+}

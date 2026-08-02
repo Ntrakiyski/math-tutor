@@ -1,0 +1,1982 @@
+{
+  "version": "0.1.0",
+  "item_count": 60,
+  "items": [
+    {
+      "id": "diag_g2_01",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_place_value_1000"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В числото 347 каква е стойността на цифрата 4?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "4"
+          },
+          {
+            "id": "B",
+            "label_bg": "40"
+          },
+          {
+            "id": "C",
+            "label_bg": "400"
+          },
+          {
+            "id": "D",
+            "label_bg": "34"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.2,
+      "representation": "text",
+      "misconception_tags": [
+        "digit_vs_place_value"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_02",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_compare_3digit"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое число е най-голямо?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "458"
+          },
+          {
+            "id": "B",
+            "label_bg": "485"
+          },
+          {
+            "id": "C",
+            "label_bg": "548"
+          },
+          {
+            "id": "D",
+            "label_bg": "445"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "C"
+      },
+      "difficulty": 0.25,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_03",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_add_regroup"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 26 + 37?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 63,
+        "tolerance": 0
+      },
+      "difficulty": 0.35,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "forgot_carry"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_04",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_sub_regroup"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 72 − 48?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 24,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "subtract_smaller_digit_from_larger"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_05",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_mult_equal_groups"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Има 4 кутии с по 3 молива. Колко молива има общо?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "7"
+          },
+          {
+            "id": "B",
+            "label_bg": "12"
+          },
+          {
+            "id": "C",
+            "label_bg": "9"
+          },
+          {
+            "id": "D",
+            "label_bg": "16"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.25,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_06",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_div_sharing"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "12 бонбона се разделят по равно между 3 деца. По колко бонбона получава всяко дете?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "3"
+          },
+          {
+            "id": "B",
+            "label_bg": "4"
+          },
+          {
+            "id": "C",
+            "label_bg": "6"
+          },
+          {
+            "id": "D",
+            "label_bg": "9"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.3,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_07",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_measure_units"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Коя единица е най-подходяща за дължината на молив?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "километри"
+          },
+          {
+            "id": "B",
+            "label_bg": "килограми"
+          },
+          {
+            "id": "C",
+            "label_bg": "сантиметри"
+          },
+          {
+            "id": "D",
+            "label_bg": "часове"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "C"
+      },
+      "difficulty": 0.15,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_08",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_one_step_word"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Мила има 18 стикера и подарява 7. Кое действие намира колко са ѝ останали?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "18 + 7"
+          },
+          {
+            "id": "B",
+            "label_bg": "18 − 7"
+          },
+          {
+            "id": "C",
+            "label_bg": "18 × 7"
+          },
+          {
+            "id": "D",
+            "label_bg": "18 ÷ 7"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.25,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "next_action"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_09",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_one_step_word"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "В автобус има 23 души. Качват се още 9. Колко души има сега?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 32,
+        "tolerance": 0
+      },
+      "difficulty": 0.3,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g2_10",
+      "grade_band": 2,
+      "topic_ids": [
+        "g2_problem_parts"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "step_order",
+      "prompt_bg": "Подреди стъпките за проста текстова задача.",
+      "config": {
+        "steps": [
+          {
+            "id": "s1",
+            "label_bg": "Прочитам какво се търси."
+          },
+          {
+            "id": "s2",
+            "label_bg": "Избирам действие."
+          },
+          {
+            "id": "s3",
+            "label_bg": "Изчислявам."
+          },
+          {
+            "id": "s4",
+            "label_bg": "Отговарям с подходяща единица."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "sequence",
+        "value": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      "difficulty": 0.3,
+      "representation": "procedural",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "review_status": "original_validated_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_01",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_place_value_10000"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В числото 4 305 коя цифра показва стотиците?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "4"
+          },
+          {
+            "id": "B",
+            "label_bg": "3"
+          },
+          {
+            "id": "C",
+            "label_bg": "0"
+          },
+          {
+            "id": "D",
+            "label_bg": "5"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.25,
+      "representation": "text",
+      "misconception_tags": [
+        "place_value_shift"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_02",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_add_multidigit"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 478 + 256?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 734,
+        "tolerance": 0
+      },
+      "difficulty": 0.45,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "carry_chain"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_03",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_sub_multidigit"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 803 − 467?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 336,
+        "tolerance": 0
+      },
+      "difficulty": 0.5,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "zero_regrouping"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_04",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_mult_facts"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 7 × 8?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 56,
+        "tolerance": 0
+      },
+      "difficulty": 0.3,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_05",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_div_facts"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 56 ÷ 7?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 8,
+        "tolerance": 0
+      },
+      "difficulty": 0.3,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_06",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_mult_2digit_1digit"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 23 × 4?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 92,
+        "tolerance": 0
+      },
+      "difficulty": 0.45,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_07",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_fraction_part_whole"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Коя дроб означава 3 избрани части от общо 4 равни части?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "4/3"
+          },
+          {
+            "id": "B",
+            "label_bg": "3/4"
+          },
+          {
+            "id": "C",
+            "label_bg": "1/4"
+          },
+          {
+            "id": "D",
+            "label_bg": "3/7"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.3,
+      "representation": "text",
+      "misconception_tags": [
+        "numerator_denominator_swap"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_08",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_perimeter"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Правоъгълник има страни 6 cm и 4 cm. Колко сантиметра е обиколката му?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 20,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_09",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_two_step_word"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В склад има 5 кашона с по 8 топки. Продадени са 13 топки. Кое трябва да намерим първо?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Колко топки има във всички кашони"
+          },
+          {
+            "id": "B",
+            "label_bg": "Колко топки са продадени"
+          },
+          {
+            "id": "C",
+            "label_bg": "Колко струва една топка"
+          },
+          {
+            "id": "D",
+            "label_bg": "Колко кашона остават"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.45,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "decomposition",
+        "next_action"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g3_10",
+      "grade_band": 3,
+      "topic_ids": [
+        "g3_order_steps"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "step_order",
+      "prompt_bg": "Подреди решението на задачата: 4 пакета по 6 тетрадки, после се добавят още 5.",
+      "config": {
+        "steps": [
+          {
+            "id": "a",
+            "label_bg": "Намирам тетрадките в 4-те пакета."
+          },
+          {
+            "id": "b",
+            "label_bg": "Добавям още 5."
+          },
+          {
+            "id": "c",
+            "label_bg": "Записвам крайния отговор."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "sequence",
+        "value": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "difficulty": 0.4,
+      "representation": "procedural",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "review_status": "original_validated_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_01",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_large_natural_numbers"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое число е закръглено до най-близката хиляда като 28 000?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "27 401"
+          },
+          {
+            "id": "B",
+            "label_bg": "27 650"
+          },
+          {
+            "id": "C",
+            "label_bg": "28 700"
+          },
+          {
+            "id": "D",
+            "label_bg": "29 200"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.5,
+      "representation": "text",
+      "misconception_tags": [
+        "rounding_threshold"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_02",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_written_multiplication"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 324 × 7?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 2268,
+        "tolerance": 0
+      },
+      "difficulty": 0.55,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_03",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_written_division"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 936 ÷ 8?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 117,
+        "tolerance": 0
+      },
+      "difficulty": 0.55,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_04",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_fraction_equivalence_basic"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Коя дроб е равна на 1/2?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "2/3"
+          },
+          {
+            "id": "B",
+            "label_bg": "2/4"
+          },
+          {
+            "id": "C",
+            "label_bg": "3/5"
+          },
+          {
+            "id": "D",
+            "label_bg": "1/4"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.35,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_05",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_fraction_compare_like_den"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Коя дроб е по-голяма?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "3/8"
+          },
+          {
+            "id": "B",
+            "label_bg": "5/8"
+          },
+          {
+            "id": "C",
+            "label_bg": "Равни са"
+          },
+          {
+            "id": "D",
+            "label_bg": "Не може да се определи"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.25,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_06",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_decimal_tenths_hundredths"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое число е равно на 3 цели и 7 десети?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "3,07"
+          },
+          {
+            "id": "B",
+            "label_bg": "3,7"
+          },
+          {
+            "id": "C",
+            "label_bg": "37"
+          },
+          {
+            "id": "D",
+            "label_bg": "0,37"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.3,
+      "representation": "text",
+      "misconception_tags": [
+        "decimal_place_shift"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_07",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_unit_conversions"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко сантиметра са 3 m и 40 cm?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 340,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_08",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_area_rectangle"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Правоъгълник има дължина 9 cm и ширина 4 cm. Колко cm² е лицето му?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 36,
+        "tolerance": 0
+      },
+      "difficulty": 0.35,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "area_perimeter_confusion"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_09",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_angles"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Ъгъл от 90° е:",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "остър"
+          },
+          {
+            "id": "B",
+            "label_bg": "прав"
+          },
+          {
+            "id": "C",
+            "label_bg": "тъп"
+          },
+          {
+            "id": "D",
+            "label_bg": "пълен"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.2,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g4_10",
+      "grade_band": 4,
+      "topic_ids": [
+        "g4_multistep_word",
+        "g4_check_solution"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Книга струва 12 лв. Купени са 3 книги и се плаща доставка 5 лв. Кой израз намира общата цена?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "12 + 3 + 5"
+          },
+          {
+            "id": "B",
+            "label_bg": "12 × 3 + 5"
+          },
+          {
+            "id": "C",
+            "label_bg": "12 × (3 + 5)"
+          },
+          {
+            "id": "D",
+            "label_bg": "12 ÷ 3 + 5"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.5,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "decomposition",
+        "reconstruction"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_01",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_fraction_compare_unlike"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Коя дроб е по-голяма?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "3/4"
+          },
+          {
+            "id": "B",
+            "label_bg": "5/8"
+          },
+          {
+            "id": "C",
+            "label_bg": "Равни са"
+          },
+          {
+            "id": "D",
+            "label_bg": "Не може да се сравнят"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.55,
+      "representation": "text",
+      "misconception_tags": [
+        "larger_denominator_larger_fraction"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_02",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_fraction_add_like"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 2/7 + 3/7? Въведи само числителя на получения несъкратен резултат.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 5,
+        "tolerance": 0
+      },
+      "difficulty": 0.3,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_03",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_fraction_add_unlike"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Колко е 1/2 + 1/4?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "2/6"
+          },
+          {
+            "id": "B",
+            "label_bg": "2/4"
+          },
+          {
+            "id": "C",
+            "label_bg": "3/4"
+          },
+          {
+            "id": "D",
+            "label_bg": "1/6"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "C"
+      },
+      "difficulty": 0.5,
+      "representation": "text",
+      "misconception_tags": [
+        "add_denominators"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_04",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_decimal_operations"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 3,75 + 2,6?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 6.35,
+        "tolerance": 0.0001
+      },
+      "difficulty": 0.45,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "decimal_alignment"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_05",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_divisibility"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое число се дели на 3?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "124"
+          },
+          {
+            "id": "B",
+            "label_bg": "135"
+          },
+          {
+            "id": "C",
+            "label_bg": "202"
+          },
+          {
+            "id": "D",
+            "label_bg": "341"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.35,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_06",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_prime_factorization"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кое е разлагането на 36 на прости множители?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "2 × 18"
+          },
+          {
+            "id": "B",
+            "label_bg": "3 × 12"
+          },
+          {
+            "id": "C",
+            "label_bg": "2 × 2 × 3 × 3"
+          },
+          {
+            "id": "D",
+            "label_bg": "6 × 6"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "C"
+      },
+      "difficulty": 0.45,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_07",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_percent_basic"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 25% от 80?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 20,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_08",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_ratio_basic"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В кутия има 2 червени и 3 сини топки. Какво е отношението червени : сини?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "2:3"
+          },
+          {
+            "id": "B",
+            "label_bg": "3:2"
+          },
+          {
+            "id": "C",
+            "label_bg": "2:5"
+          },
+          {
+            "id": "D",
+            "label_bg": "5:3"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.3,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_09",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_expression_substitution"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Намери стойността на 3a + 2 при a = 4.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 14,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g5_10",
+      "grade_band": 5,
+      "topic_ids": [
+        "g5_one_step_equation"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Реши x + 17 = 42.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 25,
+        "tolerance": 0
+      },
+      "difficulty": 0.4,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_01",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_integer_operations"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е −5 + 12?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 7,
+        "tolerance": 0
+      },
+      "difficulty": 0.35,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_02",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_integer_operations"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Колко е 7 − (−3)?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 10,
+        "tolerance": 0
+      },
+      "difficulty": 0.45,
+      "representation": "symbolic",
+      "misconception_tags": [
+        "subtract_negative"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_03",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_proportion"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Намери x, ако x/5 = 6/10.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 3,
+        "tolerance": 0
+      },
+      "difficulty": 0.55,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_04",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_percent_change"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Цена 200 лв. е намалена с 15%. Колко лева е новата цена?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 170,
+        "tolerance": 0
+      },
+      "difficulty": 0.55,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_05",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_two_step_equation"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Реши 3x + 5 = 20.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 5,
+        "tolerance": 0
+      },
+      "difficulty": 0.5,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_06",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_distributive_property"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Кой израз е равен на 4(2x + 3)?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "8x + 3"
+          },
+          {
+            "id": "B",
+            "label_bg": "8x + 12"
+          },
+          {
+            "id": "C",
+            "label_bg": "6x + 7"
+          },
+          {
+            "id": "D",
+            "label_bg": "8x + 7"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.45,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_07",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_volume"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Правоъгълен паралелепипед има размери 3 cm, 4 cm и 5 cm. Колко cm³ е обемът?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 60,
+        "tolerance": 0
+      },
+      "difficulty": 0.35,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_08",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_mean_probability"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Намери средното аритметично на 6, 8 и 10.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 8,
+        "tolerance": 0
+      },
+      "difficulty": 0.35,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_09",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_mean_probability"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В торба има 3 червени и 1 синя топка. Каква е вероятността да се изтегли синята?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "1/3"
+          },
+          {
+            "id": "B",
+            "label_bg": "1/4"
+          },
+          {
+            "id": "C",
+            "label_bg": "3/4"
+          },
+          {
+            "id": "D",
+            "label_bg": "1"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.4,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g6_10",
+      "grade_band": 6,
+      "topic_ids": [
+        "g6_proportional_word"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "3 тетрадки струват 9 лв. При същата цена колко струват 5 тетрадки?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "12 лв."
+          },
+          {
+            "id": "B",
+            "label_bg": "15 лв."
+          },
+          {
+            "id": "C",
+            "label_bg": "18 лв."
+          },
+          {
+            "id": "D",
+            "label_bg": "45 лв."
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.5,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "decomposition",
+        "structural_pattern"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_01",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_algebraic_simplification"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Опрости 3x + 2x − 4.",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "5x − 4"
+          },
+          {
+            "id": "B",
+            "label_bg": "5x"
+          },
+          {
+            "id": "C",
+            "label_bg": "6x − 4"
+          },
+          {
+            "id": "D",
+            "label_bg": "x − 4"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.4,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_02",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_monomials_polynomials"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Колко е (3x)(2x²)?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "6x²"
+          },
+          {
+            "id": "B",
+            "label_bg": "5x³"
+          },
+          {
+            "id": "C",
+            "label_bg": "6x³"
+          },
+          {
+            "id": "D",
+            "label_bg": "6x⁴"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "C"
+      },
+      "difficulty": 0.5,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_03",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_linear_equations"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Реши 4x − 7 = 2x + 9.",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 8,
+        "tolerance": 0
+      },
+      "difficulty": 0.6,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_04",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_linear_inequalities"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Реши −2x > 6.",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "x > −3"
+          },
+          {
+            "id": "B",
+            "label_bg": "x < −3"
+          },
+          {
+            "id": "C",
+            "label_bg": "x > 3"
+          },
+          {
+            "id": "D",
+            "label_bg": "x < 3"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.65,
+      "representation": "text",
+      "misconception_tags": [
+        "inequality_sign_not_flipped"
+      ],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_05",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_factorization"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Разложи 6x + 12 на множители.",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "6(x + 2)"
+          },
+          {
+            "id": "B",
+            "label_bg": "3(x + 4)"
+          },
+          {
+            "id": "C",
+            "label_bg": "6(x + 12)"
+          },
+          {
+            "id": "D",
+            "label_bg": "2(3x + 12)"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.45,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_06",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_pythagorean"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "numeric_input",
+      "prompt_bg": "Правоъгълен триъгълник има катети 6 cm и 8 cm. Колко cm е хипотенузата?",
+      "config": {
+        "input_mode": "numeric"
+      },
+      "answer": {
+        "kind": "number",
+        "value": 10,
+        "tolerance": 0
+      },
+      "difficulty": 0.45,
+      "representation": "symbolic",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_07",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_congruent_triangles"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Две страни и ъгълът между тях са съответно равни в два триъгълника. Кой признак се използва?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "страна–ъгъл–страна"
+          },
+          {
+            "id": "B",
+            "label_bg": "ъгъл–ъгъл–ъгъл"
+          },
+          {
+            "id": "C",
+            "label_bg": "само една страна"
+          },
+          {
+            "id": "D",
+            "label_bg": "обиколките са равни"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.45,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_08",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_coordinate_graphs"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Точката A(−2; 3) се намира:",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "2 надясно и 3 нагоре"
+          },
+          {
+            "id": "B",
+            "label_bg": "2 наляво и 3 нагоре"
+          },
+          {
+            "id": "C",
+            "label_bg": "2 наляво и 3 надолу"
+          },
+          {
+            "id": "D",
+            "label_bg": "върху оста x"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.35,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_09",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_data_interpretation"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "В диаграма вертикалната ос започва от 90 вместо от 0. Какъв риск има?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "Разликите могат да изглеждат по-големи"
+          },
+          {
+            "id": "B",
+            "label_bg": "Всички данни стават грешни"
+          },
+          {
+            "id": "C",
+            "label_bg": "Средната стойност винаги става 90"
+          },
+          {
+            "id": "D",
+            "label_bg": "Няма никакъв ефект"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "A"
+      },
+      "difficulty": 0.55,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "estimation_check"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    },
+    {
+      "id": "diag_g7_10",
+      "grade_band": 7,
+      "topic_ids": [
+        "g7_equation_modeling",
+        "g7_exam_decomposition"
+      ],
+      "purpose": "placement_diagnostic",
+      "block_type": "multiple_choice",
+      "prompt_bg": "Едно число е с 7 по-голямо от друго, а сборът им е 31. Ако по-малкото е x, кое уравнение е правилно?",
+      "config": {
+        "options": [
+          {
+            "id": "A",
+            "label_bg": "x + 7 = 31"
+          },
+          {
+            "id": "B",
+            "label_bg": "x + (x + 7) = 31"
+          },
+          {
+            "id": "C",
+            "label_bg": "7x = 31"
+          },
+          {
+            "id": "D",
+            "label_bg": "x + x − 7 = 31"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "option",
+        "value": "B"
+      },
+      "difficulty": 0.6,
+      "representation": "text",
+      "misconception_tags": [],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "decomposition",
+        "reconstruction"
+      ],
+      "review_status": "original_validated_arithmetic_teacher_review_required"
+    }
+  ]
+}

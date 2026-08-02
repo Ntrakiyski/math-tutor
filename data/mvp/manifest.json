@@ -1,0 +1,112 @@
+{
+  "dataset": "Math Tutor MVP Seed Pack",
+  "version": "0.1.0",
+  "generated_at": "2026-08-02",
+  "language": "bg",
+  "scope": {
+    "learner_count": 1,
+    "placement_grade_bands": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "formal_product_scope": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "first_deep_slice": [
+      "place value",
+      "addition",
+      "subtraction with regrouping",
+      "word-problem decomposition"
+    ]
+  },
+  "counts": {
+    "domains": 10,
+    "thinking_competencies": 12,
+    "topics": 66,
+    "dependencies": 115,
+    "diagnostic_items": 60,
+    "first_slice_items": 32,
+    "topic_exam_blueprints": 66,
+    "question_generator_specs": 15,
+    "achievements": 10,
+    "sample_contract_files": 3
+  },
+  "readiness": {
+    "developer_build": "ready",
+    "mvp_placement_diagnostic": "ready_for_implementation",
+    "first_teaching_vertical_slice": "ready_for_implementation",
+    "full_grade_4_8_curriculum": "not_complete",
+    "full_official_exam_corpus": "not_ingested",
+    "teacher_review": "required_before_external_release"
+  },
+  "files": {
+    "achievements.json": {
+      "bytes": 2609,
+      "sha256": "99772dd989e9f4a2648eada566abc5a7632a2c01b9bd9517329ac661fdcd37ee"
+    },
+    "admin-metrics.json": {
+      "bytes": 2494,
+      "sha256": "1558fded75ab3615568542cfd08e279470a36dc6fc3595756d41b97ff85b3eb3"
+    },
+    "dependencies.json": {
+      "bytes": 30174,
+      "sha256": "530cfefddd4d75a774cf215f0c196d4e0f7069cebe0fb4a44116c5b914d7ad77"
+    },
+    "diagnostic-items.json": {
+      "bytes": 51449,
+      "sha256": "86d4bc2693e191e2d0c9c7be8f7e3fb310d5dd09c5244953e73daba8239f2fce"
+    },
+    "domains.json": {
+      "bytes": 2777,
+      "sha256": "570ea8c9a64db73be791f027b709b173e87853cfdef6205b3d0e76651bf2112e"
+    },
+    "first-slice-items.json": {
+      "bytes": 29786,
+      "sha256": "22871295555047a79e133d4c24cdb735e95a8c71ae8d70f8c5cd249b2ad4437f"
+    },
+    "mastery-policy.json": {
+      "bytes": 2494,
+      "sha256": "95d6add9121678a54abc1b08d24a5a93b331c1e149998491ab1bad3a4515643d"
+    },
+    "onboarding.json": {
+      "bytes": 9642,
+      "sha256": "84e48ae51c6eac5562857792498446e5764fae0470dda319faa60e0d7d479a18"
+    },
+    "question-generator-specs.json": {
+      "bytes": 14778,
+      "sha256": "058fa124b7b832e53815d1f3c51801a34ec185fb9306f94c0a57a1cb983b31de"
+    },
+    "sample-agent-turn.json": {
+      "bytes": 1579,
+      "sha256": "669e6c8fdd666e004b1e9153c7e4dd1fa745873574367fa621c9f1272be3f6c4"
+    },
+    "sample-interaction-event.json": {
+      "bytes": 491,
+      "sha256": "8fab586a80920ed8bd16681786d922bff75fec46f3362036a5afa2320f242d77"
+    },
+    "sample-learner-state.json": {
+      "bytes": 1454,
+      "sha256": "4f29afa3e24b653a393f08e44f03a94fe9259a76d6457bf1c9c8c4641b6fbc8c"
+    },
+    "thinking-competencies.json": {
+      "bytes": 2894,
+      "sha256": "399626a70c3f97b6f8418594f54ea394ffafdeccb9489f1e72e590b7a577bd4f"
+    },
+    "topic-exam-blueprints.json": {
+      "bytes": 127540,
+      "sha256": "2b907dabb79b18b58fe8be88167d2eab558995098d191bfe8425cd9640a94d5f"
+    },
+    "topics.json": {
+      "bytes": 51766,
+      "sha256": "c0cad594f7641bba6bf2b0ac61e1d880c3cd9faaa6cc807d9866e49a09dfc0a9"
+    }
+  }
+}

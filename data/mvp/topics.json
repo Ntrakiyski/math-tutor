@@ -1,0 +1,1376 @@
+{
+  "version": "0.1.0",
+  "topic_count": 66,
+  "topics": [
+    {
+      "id": "g2_place_value_1000",
+      "grade_band": 2,
+      "domain_id": "number_sense",
+      "name_bg": "Стойност на цифрите до 1000",
+      "description_bg": "Разпознава единици, десетици и стотици и разлага число по разреди.",
+      "prerequisite_ids": [],
+      "mastery_evidence_bg": [
+        "посочва стойността на цифра",
+        "съставя число от стотици, десетици и единици"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "known_unknown"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_compare_3digit",
+      "grade_band": 2,
+      "domain_id": "number_sense",
+      "name_bg": "Сравняване на трицифрени числа",
+      "description_bg": "Сравнява и подрежда числа чрез стотици, десетици и единици.",
+      "prerequisite_ids": [
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "сравнява две числа",
+        "подрежда три числа"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern",
+        "estimation_check"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_add_no_regroup",
+      "grade_band": 2,
+      "domain_id": "arithmetic",
+      "name_bg": "Събиране без прегрупиране",
+      "description_bg": "Събира двуцифрени и трицифрени числа без преминаване през разред.",
+      "prerequisite_ids": [
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "събира точно",
+        "обяснява по разреди"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_add_regroup",
+      "grade_band": 2,
+      "domain_id": "arithmetic",
+      "name_bg": "Събиране с прегрупиране",
+      "description_bg": "Преобразува 10 единици в 1 десетица и 10 десетици в 1 стотица.",
+      "prerequisite_ids": [
+        "g2_add_no_regroup"
+      ],
+      "mastery_evidence_bg": [
+        "събира с пренос",
+        "показва прегрупирането с блокове"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_sub_no_regroup",
+      "grade_band": 2,
+      "domain_id": "arithmetic",
+      "name_bg": "Изваждане без прегрупиране",
+      "description_bg": "Изважда по разреди, когато във всеки разред има достатъчно единици.",
+      "prerequisite_ids": [
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "изважда точно",
+        "проверява със събиране"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_sub_regroup",
+      "grade_band": 2,
+      "domain_id": "arithmetic",
+      "name_bg": "Изваждане с прегрупиране",
+      "description_bg": "Разменя 1 десетица за 10 единици или 1 стотица за 10 десетици.",
+      "prerequisite_ids": [
+        "g2_sub_no_regroup",
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "изважда с прегрупиране",
+        "обяснява защо числото се променя"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_mult_equal_groups",
+      "grade_band": 2,
+      "domain_id": "multiplicative",
+      "name_bg": "Умножение като равни групи",
+      "description_bg": "Разбира умножението като еднакъв брой предмети в равни групи.",
+      "prerequisite_ids": [
+        "g2_add_no_regroup"
+      ],
+      "mastery_evidence_bg": [
+        "моделира произведение с групи",
+        "свързва повторно събиране с умножение"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_div_sharing",
+      "grade_band": 2,
+      "domain_id": "multiplicative",
+      "name_bg": "Деление като разпределяне",
+      "description_bg": "Разделя количество по равно в групи и свързва деление с умножение.",
+      "prerequisite_ids": [
+        "g2_mult_equal_groups"
+      ],
+      "mastery_evidence_bg": [
+        "разпределя по равно",
+        "проверява чрез умножение"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_measure_units",
+      "grade_band": 2,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Основни мерни единици",
+      "description_bg": "Използва сантиметър, метър, грам, килограм, час и минута в прости задачи.",
+      "prerequisite_ids": [],
+      "mastery_evidence_bg": [
+        "избира подходяща единица",
+        "решава проста задача с измерване"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_one_step_word",
+      "grade_band": 2,
+      "domain_id": "word_problems",
+      "name_bg": "Едностъпкови текстови задачи",
+      "description_bg": "Определя какво се търси и избира една подходяща операция.",
+      "prerequisite_ids": [
+        "g2_add_no_regroup",
+        "g2_sub_no_regroup"
+      ],
+      "mastery_evidence_bg": [
+        "посочва въпроса",
+        "избира действие и отговаря с единица"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "next_action"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g2_problem_parts",
+      "grade_band": 2,
+      "domain_id": "thinking_decomposition",
+      "name_bg": "Части на проста задача",
+      "description_bg": "Отделя условие, въпрос, известни числа и неизвестно.",
+      "prerequisite_ids": [
+        "g2_one_step_word"
+      ],
+      "mastery_evidence_bg": [
+        "маркира известно и неизвестно",
+        "посочва първата стъпка"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "decomposition"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_place_value_10000",
+      "grade_band": 3,
+      "domain_id": "number_sense",
+      "name_bg": "Числа до 10 000",
+      "description_bg": "Чете, записва, разлага и сравнява четирицифрени числа.",
+      "prerequisite_ids": [
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "разлага число",
+        "сравнява по разреди"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_add_multidigit",
+      "grade_band": 3,
+      "domain_id": "arithmetic",
+      "name_bg": "Писмено събиране на многоцифрени числа",
+      "description_bg": "Подрежда разредите и извършва пренос през един или повече разреди.",
+      "prerequisite_ids": [
+        "g2_add_regroup",
+        "g3_place_value_10000"
+      ],
+      "mastery_evidence_bg": [
+        "решава писмено",
+        "открива грешка в преноса"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "iteration"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_sub_multidigit",
+      "grade_band": 3,
+      "domain_id": "arithmetic",
+      "name_bg": "Писмено изваждане на многоцифрени числа",
+      "description_bg": "Изважда с едно или повече прегрупирания и проверява резултата.",
+      "prerequisite_ids": [
+        "g2_sub_regroup",
+        "g3_place_value_10000"
+      ],
+      "mastery_evidence_bg": [
+        "решава писмено",
+        "проверява със събиране"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_mult_facts",
+      "grade_band": 3,
+      "domain_id": "multiplicative",
+      "name_bg": "Таблица за умножение",
+      "description_bg": "Използва основните произведения до 10×10 и връзката с делението.",
+      "prerequisite_ids": [
+        "g2_mult_equal_groups"
+      ],
+      "mastery_evidence_bg": [
+        "отговаря точно",
+        "извежда непознат факт от известен"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_div_facts",
+      "grade_band": 3,
+      "domain_id": "multiplicative",
+      "name_bg": "Таблично деление",
+      "description_bg": "Намира частно чрез обратната връзка с умножението.",
+      "prerequisite_ids": [
+        "g3_mult_facts",
+        "g2_div_sharing"
+      ],
+      "mastery_evidence_bg": [
+        "дели точно",
+        "проверява с умножение"
+      ],
+      "thinking_competency_ids": [
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_mult_2digit_1digit",
+      "grade_band": 3,
+      "domain_id": "multiplicative",
+      "name_bg": "Двуцифрено по едноцифрено число",
+      "description_bg": "Разлага двуцифрено число и умножава по разреди.",
+      "prerequisite_ids": [
+        "g3_mult_facts",
+        "g2_place_value_1000"
+      ],
+      "mastery_evidence_bg": [
+        "решава чрез разлагане",
+        "решава писмено"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_fraction_unit",
+      "grade_band": 3,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Единични дроби",
+      "description_bg": "Разбира 1/n като една от n равни части на цяло.",
+      "prerequisite_ids": [
+        "g2_div_sharing"
+      ],
+      "mastery_evidence_bg": [
+        "разпознава 1/2, 1/3, 1/4",
+        "сравнява единични дроби визуално"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_fraction_part_whole",
+      "grade_band": 3,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Дроб като част от цяло",
+      "description_bg": "Разпознава числител и знаменател чрез модели на равни части.",
+      "prerequisite_ids": [
+        "g3_fraction_unit"
+      ],
+      "mastery_evidence_bg": [
+        "изгражда дроб от модел",
+        "свързва модел със запис"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_perimeter",
+      "grade_band": 3,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Обиколка на правоъгълник",
+      "description_bg": "Събира дължините на страните и използва формула след разбиране на смисъла.",
+      "prerequisite_ids": [
+        "g2_measure_units",
+        "g2_add_no_regroup"
+      ],
+      "mastery_evidence_bg": [
+        "намира обиколка",
+        "обяснява кои страни се повтарят"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_two_step_word",
+      "grade_band": 3,
+      "domain_id": "word_problems",
+      "name_bg": "Двустъпкови текстови задачи",
+      "description_bg": "Разделя текстова задача на две свързани подзадачи.",
+      "prerequisite_ids": [
+        "g2_one_step_word",
+        "g3_add_multidigit",
+        "g3_sub_multidigit"
+      ],
+      "mastery_evidence_bg": [
+        "създава две подзадачи",
+        "свързва междинния резултат с крайния въпрос"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g3_order_steps",
+      "grade_band": 3,
+      "domain_id": "thinking_decomposition",
+      "name_bg": "Подреждане на стъпки",
+      "description_bg": "Подрежда готови стъпки и обяснява защо една трябва да бъде преди друга.",
+      "prerequisite_ids": [
+        "g3_two_step_word"
+      ],
+      "mastery_evidence_bg": [
+        "подрежда правилно",
+        "посочва зависимост между стъпките"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_large_natural_numbers",
+      "grade_band": 4,
+      "domain_id": "number_sense",
+      "name_bg": "Естествени числа и разреди",
+      "description_bg": "Чете, записва, сравнява и закръгля големи естествени числа.",
+      "prerequisite_ids": [
+        "g3_place_value_10000"
+      ],
+      "mastery_evidence_bg": [
+        "разлага голямо число",
+        "закръгля до зададен разред"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_written_multiplication",
+      "grade_band": 4,
+      "domain_id": "multiplicative",
+      "name_bg": "Писмено умножение",
+      "description_bg": "Умножава многоцифрено число по едноцифрено и двуцифрено число.",
+      "prerequisite_ids": [
+        "g3_mult_2digit_1digit",
+        "g3_mult_facts"
+      ],
+      "mastery_evidence_bg": [
+        "изчислява точно",
+        "оценява порядъка на резултата"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_written_division",
+      "grade_band": 4,
+      "domain_id": "multiplicative",
+      "name_bg": "Писмено деление",
+      "description_bg": "Дели многоцифрено число и интерпретира остатъка.",
+      "prerequisite_ids": [
+        "g3_div_facts",
+        "g4_written_multiplication"
+      ],
+      "mastery_evidence_bg": [
+        "извършва деление",
+        "проверява частно и остатък"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_fraction_compare_like_den",
+      "grade_band": 4,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Сравняване на дроби с еднакви знаменатели",
+      "description_bg": "Сравнява броя избрани равни части при еднакъв размер на частта.",
+      "prerequisite_ids": [
+        "g3_fraction_part_whole"
+      ],
+      "mastery_evidence_bg": [
+        "сравнява визуално и символно",
+        "обяснява ролята на числителя"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "evidence_reasoning"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_fraction_equivalence_basic",
+      "grade_band": 4,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Основна еквивалентност на дроби",
+      "description_bg": "Разпознава различни разбиения, които показват едно и също количество.",
+      "prerequisite_ids": [
+        "g3_fraction_part_whole"
+      ],
+      "mastery_evidence_bg": [
+        "показва 1/2 = 2/4",
+        "използва визуален модел"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "structural_pattern"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_decimal_tenths_hundredths",
+      "grade_band": 4,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Десети и стотни",
+      "description_bg": "Свързва десетичен запис с части от единицата и позиционна стойност.",
+      "prerequisite_ids": [
+        "g4_large_natural_numbers",
+        "g3_fraction_part_whole"
+      ],
+      "mastery_evidence_bg": [
+        "чете десетични числа",
+        "поставя ги на числова ос"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_unit_conversions",
+      "grade_band": 4,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Преобразуване на мерни единици",
+      "description_bg": "Преобразува дължина, маса, време и лице в стандартни случаи.",
+      "prerequisite_ids": [
+        "g2_measure_units",
+        "g4_large_natural_numbers"
+      ],
+      "mastery_evidence_bg": [
+        "избира фактор за преобразуване",
+        "проверява единицата"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check",
+        "known_unknown"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_area_rectangle",
+      "grade_band": 4,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Лице на правоъгълник и квадрат",
+      "description_bg": "Разбира лицето чрез покриване с единични квадрати и използва формула.",
+      "prerequisite_ids": [
+        "g3_perimeter",
+        "g3_mult_facts"
+      ],
+      "mastery_evidence_bg": [
+        "намира лице",
+        "разграничава лице от обиколка"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "structural_pattern"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_angles",
+      "grade_band": 4,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Видове ъгли",
+      "description_bg": "Разпознава остър, прав и тъп ъгъл и оценява големината му.",
+      "prerequisite_ids": [],
+      "mastery_evidence_bg": [
+        "класифицира ъгъл",
+        "сравнява с прав ъгъл"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check",
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_multistep_word",
+      "grade_band": 4,
+      "domain_id": "word_problems",
+      "name_bg": "Многостъпкови задачи с естествени числа",
+      "description_bg": "Изгражда план от три или повече свързани стъпки.",
+      "prerequisite_ids": [
+        "g3_two_step_word",
+        "g4_written_multiplication",
+        "g4_written_division"
+      ],
+      "mastery_evidence_bg": [
+        "избира междинни неизвестни",
+        "реконструира крайния отговор"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g4_check_solution",
+      "grade_band": 4,
+      "domain_id": "thinking_decomposition",
+      "name_bg": "Проверка на решение",
+      "description_bg": "Проверява отговор чрез обратна операция, оценка и връщане към условието.",
+      "prerequisite_ids": [
+        "g4_multistep_word"
+      ],
+      "mastery_evidence_bg": [
+        "открива несъответствие",
+        "обяснява защо отговорът е разумен"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check",
+        "reconstruction",
+        "evidence_reasoning"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_fraction_compare_unlike",
+      "grade_band": 5,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Сравняване на дроби с различни знаменатели",
+      "description_bg": "Използва общ знаменател, числова ос или еквивалентни модели.",
+      "prerequisite_ids": [
+        "g4_fraction_equivalence_basic",
+        "g4_fraction_compare_like_den"
+      ],
+      "mastery_evidence_bg": [
+        "сравнява по два начина",
+        "избягва правилото 'по-голям знаменател означава по-голяма дроб'"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "structural_pattern"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_fraction_add_like",
+      "grade_band": 5,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Събиране и изваждане с еднакви знаменатели",
+      "description_bg": "Събира или изважда броя на равните части, без да променя размера им.",
+      "prerequisite_ids": [
+        "g4_fraction_compare_like_den"
+      ],
+      "mastery_evidence_bg": [
+        "изчислява точно",
+        "обяснява защо знаменателят остава"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_fraction_add_unlike",
+      "grade_band": 5,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Събиране и изваждане с различни знаменатели",
+      "description_bg": "Привежда към еквивалентни дроби с общ знаменател.",
+      "prerequisite_ids": [
+        "g5_fraction_add_like",
+        "g5_fraction_compare_unlike"
+      ],
+      "mastery_evidence_bg": [
+        "намира общ знаменател",
+        "проверява с модел или оценка"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "representation_switching"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_decimal_operations",
+      "grade_band": 5,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Действия с десетични числа",
+      "description_bg": "Подрежда десетичните знаци и извършва събиране, изваждане, умножение и деление в основни случаи.",
+      "prerequisite_ids": [
+        "g4_decimal_tenths_hundredths",
+        "g3_add_multidigit",
+        "g3_sub_multidigit"
+      ],
+      "mastery_evidence_bg": [
+        "изчислява точно",
+        "оценява позицията на десетичната запетая"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_divisibility",
+      "grade_band": 5,
+      "domain_id": "multiplicative",
+      "name_bg": "Признаци за делимост",
+      "description_bg": "Използва признаци за 2, 3, 5, 9 и 10 и ги обосновава чрез цифрите.",
+      "prerequisite_ids": [
+        "g3_mult_facts",
+        "g3_div_facts"
+      ],
+      "mastery_evidence_bg": [
+        "проверява делимост",
+        "обяснява използвания признак"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_prime_factorization",
+      "grade_band": 5,
+      "domain_id": "multiplicative",
+      "name_bg": "Прости множители",
+      "description_bg": "Разлага съставно число на прости множители и използва разлагането.",
+      "prerequisite_ids": [
+        "g5_divisibility",
+        "g3_mult_facts"
+      ],
+      "mastery_evidence_bg": [
+        "създава вярно разлагане",
+        "проверява чрез умножение"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_percent_basic",
+      "grade_band": 5,
+      "domain_id": "ratios_percent",
+      "name_bg": "Процент като част от 100",
+      "description_bg": "Свързва процент с дроб и десетично число и намира прост процент от величина.",
+      "prerequisite_ids": [
+        "g4_fraction_equivalence_basic",
+        "g4_decimal_tenths_hundredths"
+      ],
+      "mastery_evidence_bg": [
+        "преобразува процент",
+        "намира 10%, 25%, 50%"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_ratio_basic",
+      "grade_band": 5,
+      "domain_id": "ratios_percent",
+      "name_bg": "Отношение на две величини",
+      "description_bg": "Записва и интерпретира отношение и го свързва с дроб.",
+      "prerequisite_ids": [
+        "g3_fraction_part_whole",
+        "g3_div_facts"
+      ],
+      "mastery_evidence_bg": [
+        "записва отношение",
+        "различава реда на величините"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "known_unknown"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_expression_substitution",
+      "grade_band": 5,
+      "domain_id": "algebra",
+      "name_bg": "Числена стойност на израз",
+      "description_bg": "Замества буква с дадена стойност и спазва реда на действията.",
+      "prerequisite_ids": [
+        "g4_written_multiplication",
+        "g4_written_division"
+      ],
+      "mastery_evidence_bg": [
+        "замества правилно",
+        "изчислява по реда на действията"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_one_step_equation",
+      "grade_band": 5,
+      "domain_id": "algebra",
+      "name_bg": "Едностъпкови уравнения",
+      "description_bg": "Намира неизвестно чрез обратна операция и проверява.",
+      "prerequisite_ids": [
+        "g3_add_multidigit",
+        "g3_sub_multidigit",
+        "g3_mult_facts",
+        "g3_div_facts"
+      ],
+      "mastery_evidence_bg": [
+        "решава уравнение",
+        "проверява чрез заместване"
+      ],
+      "thinking_competency_ids": [
+        "known_unknown",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g5_model_word_problem",
+      "grade_band": 5,
+      "domain_id": "word_problems",
+      "name_bg": "Моделиране с дроби, десетични числа и проценти",
+      "description_bg": "Избира представяне и свързва текст с израз или уравнение.",
+      "prerequisite_ids": [
+        "g4_multistep_word",
+        "g5_fraction_add_unlike",
+        "g5_decimal_operations",
+        "g5_percent_basic"
+      ],
+      "mastery_evidence_bg": [
+        "създава модел",
+        "обяснява връзката между стъпките"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "decomposition",
+        "representation_switching",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_negative_numbers",
+      "grade_band": 6,
+      "domain_id": "number_sense",
+      "name_bg": "Отрицателни числа и числова ос",
+      "description_bg": "Сравнява отрицателни числа и ги разполага спрямо нулата.",
+      "prerequisite_ids": [
+        "g4_decimal_tenths_hundredths"
+      ],
+      "mastery_evidence_bg": [
+        "подрежда рационални числа",
+        "обяснява разстояние от нулата"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_integer_operations",
+      "grade_band": 6,
+      "domain_id": "arithmetic",
+      "name_bg": "Действия с цели числа",
+      "description_bg": "Събира, изважда, умножава и дели положителни и отрицателни числа.",
+      "prerequisite_ids": [
+        "g6_negative_numbers",
+        "g3_mult_facts"
+      ],
+      "mastery_evidence_bg": [
+        "изчислява точно",
+        "обяснява знака на резултата"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern",
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_fraction_operations",
+      "grade_band": 6,
+      "domain_id": "fractions_decimals",
+      "name_bg": "Умножение и деление на дроби",
+      "description_bg": "Разбира умножение като част от количество и деление като търсене на групи.",
+      "prerequisite_ids": [
+        "g5_fraction_add_unlike",
+        "g5_prime_factorization"
+      ],
+      "mastery_evidence_bg": [
+        "умножава и дели дроби",
+        "проверява чрез обратна операция"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_proportion",
+      "grade_band": 6,
+      "domain_id": "ratios_percent",
+      "name_bg": "Пропорции",
+      "description_bg": "Решава пропорции и обяснява равенството на две отношения.",
+      "prerequisite_ids": [
+        "g5_ratio_basic",
+        "g5_one_step_equation"
+      ],
+      "mastery_evidence_bg": [
+        "намира неизвестен член",
+        "разпознава непропорционална ситуация"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern",
+        "known_unknown"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_percent_change",
+      "grade_band": 6,
+      "domain_id": "ratios_percent",
+      "name_bg": "Процентно увеличение и намаление",
+      "description_bg": "Намира нова стойност след увеличение или намаление и различава процент от процентни пункта.",
+      "prerequisite_ids": [
+        "g5_percent_basic",
+        "g5_decimal_operations"
+      ],
+      "mastery_evidence_bg": [
+        "решава практическа задача",
+        "проверява спрямо началната стойност"
+      ],
+      "thinking_competency_ids": [
+        "estimation_check",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_two_step_equation",
+      "grade_band": 6,
+      "domain_id": "algebra",
+      "name_bg": "Двустъпкови линейни уравнения",
+      "description_bg": "Изолира неизвестното чрез последователни обратни операции.",
+      "prerequisite_ids": [
+        "g5_one_step_equation",
+        "g6_integer_operations"
+      ],
+      "mastery_evidence_bg": [
+        "решава и проверява",
+        "подрежда обратните операции"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_distributive_property",
+      "grade_band": 6,
+      "domain_id": "algebra",
+      "name_bg": "Разпределително свойство",
+      "description_bg": "Разкрива скоби и извежда общ множител в основни случаи.",
+      "prerequisite_ids": [
+        "g5_expression_substitution",
+        "g3_mult_facts"
+      ],
+      "mastery_evidence_bg": [
+        "преобразува израз",
+        "показва модел с правоъгълник"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "structural_pattern"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_circle",
+      "grade_band": 6,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Окръжност и кръг",
+      "description_bg": "Използва радиус, диаметър, дължина на окръжност и лице на кръг в основни задачи.",
+      "prerequisite_ids": [
+        "g4_area_rectangle",
+        "g5_decimal_operations"
+      ],
+      "mastery_evidence_bg": [
+        "разграничава радиус и диаметър",
+        "избира правилна формула"
+      ],
+      "thinking_competency_ids": [
+        "known_unknown",
+        "estimation_check"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_volume",
+      "grade_band": 6,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Обем на правоъгълен паралелепипед",
+      "description_bg": "Свързва обема с брой единични кубчета и използва произведение на размерите.",
+      "prerequisite_ids": [
+        "g4_area_rectangle",
+        "g4_written_multiplication"
+      ],
+      "mastery_evidence_bg": [
+        "намира обем",
+        "разграничава лице от обем"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "decomposition"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_mean_probability",
+      "grade_band": 6,
+      "domain_id": "data_probability",
+      "name_bg": "Средна стойност и елементарна вероятност",
+      "description_bg": "Намира средно аритметично и вероятност при равновъзможни изходи.",
+      "prerequisite_ids": [
+        "g4_written_division",
+        "g5_fraction_add_like"
+      ],
+      "mastery_evidence_bg": [
+        "изчислява средно",
+        "изброява възможни изходи"
+      ],
+      "thinking_competency_ids": [
+        "uncertainty",
+        "decomposition"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g6_proportional_word",
+      "grade_band": 6,
+      "domain_id": "word_problems",
+      "name_bg": "Пропорционални текстови задачи",
+      "description_bg": "Разпознава пропорционална зависимост, избира модел и проверява единиците.",
+      "prerequisite_ids": [
+        "g6_proportion",
+        "g5_model_word_problem"
+      ],
+      "mastery_evidence_bg": [
+        "създава таблица или пропорция",
+        "обяснява защо зависимостта е пропорционална"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "representation_switching",
+        "structural_pattern",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_algebraic_simplification",
+      "grade_band": 7,
+      "domain_id": "algebra",
+      "name_bg": "Опростяване на алгебрични изрази",
+      "description_bg": "Събира подобни членове и прилага свойства на действията.",
+      "prerequisite_ids": [
+        "g6_distributive_property",
+        "g6_integer_operations"
+      ],
+      "mastery_evidence_bg": [
+        "опростява точно",
+        "обяснява кои членове са подобни"
+      ],
+      "thinking_competency_ids": [
+        "structural_pattern"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_monomials_polynomials",
+      "grade_band": 7,
+      "domain_id": "algebra",
+      "name_bg": "Едночлени и многочлени",
+      "description_bg": "Извършва основни действия с едночлени и многочлени.",
+      "prerequisite_ids": [
+        "g7_algebraic_simplification",
+        "g5_prime_factorization"
+      ],
+      "mastery_evidence_bg": [
+        "умножава едночлени",
+        "събира многочлени"
+      ],
+      "thinking_competency_ids": [
+        "decomposition"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_linear_equations",
+      "grade_band": 7,
+      "domain_id": "algebra",
+      "name_bg": "Линейни уравнения",
+      "description_bg": "Решава линейни уравнения с неизвестно от двете страни и проверява.",
+      "prerequisite_ids": [
+        "g6_two_step_equation",
+        "g7_algebraic_simplification"
+      ],
+      "mastery_evidence_bg": [
+        "решава систематично",
+        "обяснява запазването на равенството"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "next_action",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_linear_inequalities",
+      "grade_band": 7,
+      "domain_id": "algebra",
+      "name_bg": "Линейни неравенства",
+      "description_bg": "Решава линейни неравенства и обръща знака при умножение или деление с отрицателно число.",
+      "prerequisite_ids": [
+        "g7_linear_equations",
+        "g6_negative_numbers"
+      ],
+      "mastery_evidence_bg": [
+        "решава и представя множество решения",
+        "обяснява обръщането на знака"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching",
+        "evidence_reasoning"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_factorization",
+      "grade_band": 7,
+      "domain_id": "algebra",
+      "name_bg": "Разлагане на многочлени",
+      "description_bg": "Изнася общ множител и използва основни формули за съкратено умножение.",
+      "prerequisite_ids": [
+        "g7_monomials_polynomials",
+        "g5_prime_factorization"
+      ],
+      "mastery_evidence_bg": [
+        "разлага и проверява чрез умножение",
+        "избира подходящ метод"
+      ],
+      "thinking_competency_ids": [
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_congruent_triangles",
+      "grade_band": 7,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Еднакви триъгълници",
+      "description_bg": "Използва признаци за еднаквост и извежда съответни елементи.",
+      "prerequisite_ids": [
+        "g4_angles",
+        "g4_area_rectangle"
+      ],
+      "mastery_evidence_bg": [
+        "разпознава приложим признак",
+        "обосновава равенство на елементи"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "known_unknown"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_pythagorean",
+      "grade_band": 7,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Питагорова теорема",
+      "description_bg": "Използва връзката между страните на правоъгълен триъгълник и проверява дали резултатът е разумен.",
+      "prerequisite_ids": [
+        "g7_linear_equations",
+        "g6_integer_operations",
+        "g4_angles"
+      ],
+      "mastery_evidence_bg": [
+        "намира липсваща страна",
+        "разпознава правоъгълен триъгълник"
+      ],
+      "thinking_competency_ids": [
+        "known_unknown",
+        "estimation_check"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_coordinate_graphs",
+      "grade_band": 7,
+      "domain_id": "geometry_measurement",
+      "name_bg": "Координатна система и графично представяне",
+      "description_bg": "Нанася точки и интерпретира зависимост чрез координати и графика.",
+      "prerequisite_ids": [
+        "g6_negative_numbers"
+      ],
+      "mastery_evidence_bg": [
+        "нанася точка",
+        "чете стойности от графика"
+      ],
+      "thinking_competency_ids": [
+        "representation_switching"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_data_interpretation",
+      "grade_band": 7,
+      "domain_id": "data_probability",
+      "name_bg": "Интерпретиране на таблици и диаграми",
+      "description_bg": "Извлича данни, сравнява величини и открива подвеждащо представяне.",
+      "prerequisite_ids": [
+        "g6_mean_probability",
+        "g5_percent_basic"
+      ],
+      "mastery_evidence_bg": [
+        "отговаря по данни",
+        "проверява мащаб и единици"
+      ],
+      "thinking_competency_ids": [
+        "evidence_reasoning",
+        "estimation_check",
+        "uncertainty"
+      ],
+      "diagnostic_critical": false,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_equation_modeling",
+      "grade_band": 7,
+      "domain_id": "word_problems",
+      "name_bg": "Моделиране с линейно уравнение",
+      "description_bg": "Превежда многостъпкова ситуация в линейно уравнение и интерпретира решението.",
+      "prerequisite_ids": [
+        "g7_linear_equations",
+        "g6_proportional_word"
+      ],
+      "mastery_evidence_bg": [
+        "дефинира неизвестно",
+        "създава уравнение",
+        "връща отговора към контекста"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "decomposition",
+        "reconstruction"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    },
+    {
+      "id": "g7_exam_decomposition",
+      "grade_band": 7,
+      "domain_id": "thinking_decomposition",
+      "name_bg": "Самостоятелно разлагане на непозната задача",
+      "description_bg": "Създава план, решава частите, проверява и защитава решение без готови стъпки.",
+      "prerequisite_ids": [
+        "g7_equation_modeling",
+        "g4_check_solution"
+      ],
+      "mastery_evidence_bg": [
+        "създава полезни подзадачи",
+        "избира стратегия",
+        "проверява и обяснява"
+      ],
+      "thinking_competency_ids": [
+        "identify_goal",
+        "known_unknown",
+        "decomposition",
+        "next_action",
+        "reconstruction",
+        "evidence_reasoning"
+      ],
+      "diagnostic_critical": true,
+      "curriculum_status": "original_mvp_progression_teacher_review_required"
+    }
+  ]
+}

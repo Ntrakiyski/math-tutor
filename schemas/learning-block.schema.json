@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://math-tutor.local/schemas/learning-block.schema.json",
+  "title": "Math Tutor Learning Block",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "promptBg",
+    "config"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "message",
+        "multiple_choice",
+        "multi_select",
+        "numeric_input",
+        "binary_choice",
+        "step_choice",
+        "step_order",
+        "known_unknown_sort",
+        "place_value_chart",
+        "base_ten_blocks",
+        "number_line",
+        "error_spotter",
+        "fraction_bar",
+        "confidence_check",
+        "reflection_choice",
+        "profile_confirmation",
+        "achievement_card",
+        "session_summary"
+      ]
+    },
+    "promptBg": {
+      "type": "string"
+    },
+    "config": {
+      "type": "object"
+    },
+    "topicIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "thinkingCompetencyIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supportLevel": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6
+    },
+    "scored": {
+      "type": "boolean"
+    },
+    "submitMode": {
+      "type": "string",
+      "enum": [
+        "explicit",
+        "auto",
+        "none"
+      ]
+    },
+    "accessibility": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

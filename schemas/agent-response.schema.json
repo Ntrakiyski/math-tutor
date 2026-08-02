@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://math-tutor.local/schemas/agent-response.schema.json",
+  "title": "Math Tutor Agent Turn",
+  "type": "object",
+  "required": [
+    "protocolVersion",
+    "responseId",
+    "sessionId",
+    "learnerId",
+    "mode",
+    "objective",
+    "blocks",
+    "nextTurnPolicy"
+  ],
+  "properties": {
+    "protocolVersion": {
+      "const": "1.0"
+    },
+    "responseId": {
+      "type": "string"
+    },
+    "sessionId": {
+      "type": "string"
+    },
+    "learnerId": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "onboarding",
+        "diagnostic",
+        "teaching",
+        "assessment",
+        "reflection",
+        "resume"
+      ]
+    },
+    "objective": {
+      "type": "object",
+      "required": [
+        "reasonBg"
+      ],
+      "properties": {
+        "topicIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "thinkingCompetencyIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reasonBg": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "learning-block.schema.json"
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "properties": {
+        "contentItemId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expectedAnswer": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "misconceptionTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recordPersonaEvidence": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "nextTurnPolicy": {
+      "type": "object",
+      "required": [
+        "waitFor"
+      ],
+      "properties": {
+        "waitFor": {
+          "type": "string",
+          "enum": [
+            "learner_event",
+            "learner_message",
+            "none"
+          ]
+        },
+        "allowFreeText": {
+          "type": "boolean"
+        },
+        "maxRetries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

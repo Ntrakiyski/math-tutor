@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://math-tutor.local/schemas/interaction-event.schema.json",
+  "title": "Math Tutor Interaction Event",
+  "type": "object",
+  "required": [
+    "eventId",
+    "sessionId",
+    "learnerId",
+    "blockId",
+    "eventType",
+    "occurredAt",
+    "payload",
+    "metrics"
+  ],
+  "properties": {
+    "eventId": {
+      "type": "string"
+    },
+    "sessionId": {
+      "type": "string"
+    },
+    "learnerId": {
+      "type": "string"
+    },
+    "responseId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "blockId": {
+      "type": "string"
+    },
+    "contentItemId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "eventType": {
+      "type": "string",
+      "enum": [
+        "block_opened",
+        "selection_changed",
+        "hint_requested",
+        "representation_requested",
+        "submitted",
+        "skipped",
+        "abandoned",
+        "reflection_submitted",
+        "profile_corrected"
+      ]
+    },
+    "occurredAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "durationMs",
+        "changeCount",
+        "hintCount"
+      ],
+      "properties": {
+        "durationMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "changeCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hintCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "guess",
+            "unsure",
+            "mostly",
+            "certain",
+            null
+          ]
+        },
+        "supportLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

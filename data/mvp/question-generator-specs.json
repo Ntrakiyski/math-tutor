@@ -1,0 +1,615 @@
+{
+  "version": "0.1.0",
+  "generator_count": 15,
+  "generators": [
+    {
+      "id": "gen_place_value_identify",
+      "domain_id": "number_sense",
+      "block_types": [
+        "multiple_choice",
+        "place_value_chart"
+      ],
+      "applicable_topic_ids": [
+        "g2_place_value_1000",
+        "g3_place_value_10000",
+        "g4_large_natural_numbers"
+      ],
+      "parameters": {
+        "digits": {
+          "min": 3,
+          "max": 7
+        },
+        "allow_zero_inside": true,
+        "target_place": [
+          "ones",
+          "tens",
+          "hundreds",
+          "thousands",
+          "ten_thousands"
+        ]
+      },
+      "validator": "derive digit value from base-10 position",
+      "distractor_rules": [
+        "raw digit",
+        "adjacent place value",
+        "reversed place value"
+      ],
+      "integrity_variants": [
+        "ask digit from value",
+        "ask value from digit",
+        "construct number",
+        "identify equivalent decomposition"
+      ]
+    },
+    {
+      "id": "gen_addition_regroup",
+      "domain_id": "arithmetic",
+      "block_types": [
+        "numeric_input",
+        "base_ten_blocks",
+        "error_spotter"
+      ],
+      "applicable_topic_ids": [
+        "g2_add_regroup",
+        "g3_add_multidigit"
+      ],
+      "parameters": {
+        "digits": {
+          "min": 2,
+          "max": 4
+        },
+        "regroup_count": {
+          "min": 1,
+          "max": 3
+        },
+        "avoid_negative": true
+      },
+      "validator": "integer addition",
+      "distractor_rules": [
+        "forgot one carry",
+        "misaligned digits",
+        "carried digit added twice"
+      ],
+      "integrity_variants": [
+        "word problem",
+        "missing addend",
+        "error diagnosis",
+        "visual regroup"
+      ]
+    },
+    {
+      "id": "gen_subtraction_regroup",
+      "domain_id": "arithmetic",
+      "block_types": [
+        "numeric_input",
+        "base_ten_blocks",
+        "error_spotter",
+        "step_choice"
+      ],
+      "applicable_topic_ids": [
+        "g2_sub_regroup",
+        "g3_sub_multidigit"
+      ],
+      "parameters": {
+        "digits": {
+          "min": 2,
+          "max": 4
+        },
+        "regroup_count": {
+          "min": 1,
+          "max": 3
+        },
+        "allow_zero_chain": true,
+        "nonnegative_result": true
+      },
+      "validator": "integer subtraction",
+      "distractor_rules": [
+        "subtract smaller digit from larger",
+        "forgot to reduce borrowed place",
+        "zero-chain regroup error"
+      ],
+      "integrity_variants": [
+        "word problem",
+        "missing minuend",
+        "reversed operation check",
+        "visual regroup",
+        "novel layout"
+      ]
+    },
+    {
+      "id": "gen_multiplication",
+      "domain_id": "multiplicative",
+      "block_types": [
+        "numeric_input",
+        "group_model",
+        "array_model",
+        "multiple_choice"
+      ],
+      "applicable_topic_ids": [
+        "g2_mult_equal_groups",
+        "g3_mult_facts",
+        "g3_mult_2digit_1digit",
+        "g4_written_multiplication"
+      ],
+      "parameters": {
+        "factors": {
+          "min": 2,
+          "max": 999
+        },
+        "grade_controls": "cap factor sizes by topic"
+      },
+      "validator": "integer multiplication",
+      "distractor_rules": [
+        "addition instead of multiplication",
+        "place-value error",
+        "partial product omitted"
+      ],
+      "integrity_variants": [
+        "equal groups",
+        "array",
+        "repeated addition",
+        "missing factor",
+        "word problem"
+      ]
+    },
+    {
+      "id": "gen_division",
+      "domain_id": "multiplicative",
+      "block_types": [
+        "numeric_input",
+        "group_model",
+        "multiple_choice",
+        "error_spotter"
+      ],
+      "applicable_topic_ids": [
+        "g2_div_sharing",
+        "g3_div_facts",
+        "g4_written_division"
+      ],
+      "parameters": {
+        "divisor": {
+          "min": 2,
+          "max": 99
+        },
+        "quotient": {
+          "min": 2,
+          "max": 999
+        },
+        "allow_remainder": true
+      },
+      "validator": "integer division with quotient and remainder",
+      "distractor_rules": [
+        "multiply instead of divide",
+        "remainder ignored",
+        "dividend/divisor reversed"
+      ],
+      "integrity_variants": [
+        "sharing",
+        "grouping",
+        "inverse multiplication",
+        "remainder interpretation"
+      ]
+    },
+    {
+      "id": "gen_fraction_visual",
+      "domain_id": "fractions_decimals",
+      "block_types": [
+        "fraction_bar",
+        "fraction_circle",
+        "number_line",
+        "multiple_choice"
+      ],
+      "applicable_topic_ids": [
+        "g3_fraction_unit",
+        "g3_fraction_part_whole",
+        "g4_fraction_compare_like_den",
+        "g4_fraction_equivalence_basic"
+      ],
+      "parameters": {
+        "denominator": {
+          "min": 2,
+          "max": 12
+        },
+        "numerator": {
+          "min": 1,
+          "max": "denominator"
+        }
+      },
+      "validator": "rational equivalence and comparison",
+      "distractor_rules": [
+        "numerator denominator swap",
+        "larger denominator means larger fraction",
+        "unequal wholes"
+      ],
+      "integrity_variants": [
+        "construct",
+        "identify non-example",
+        "number line",
+        "equivalent shading"
+      ]
+    },
+    {
+      "id": "gen_fraction_operations",
+      "domain_id": "fractions_decimals",
+      "block_types": [
+        "numeric_input",
+        "fraction_bar",
+        "step_order",
+        "error_spotter"
+      ],
+      "applicable_topic_ids": [
+        "g5_fraction_add_like",
+        "g5_fraction_add_unlike",
+        "g6_fraction_operations"
+      ],
+      "parameters": {
+        "denominator": {
+          "min": 2,
+          "max": 18
+        },
+        "require_simplification": "topic-dependent"
+      },
+      "validator": "exact rational arithmetic",
+      "distractor_rules": [
+        "add denominators",
+        "invert wrong fraction",
+        "do not simplify",
+        "common denominator applied incorrectly"
+      ],
+      "integrity_variants": [
+        "visual model",
+        "missing step",
+        "reverse operation",
+        "word problem"
+      ]
+    },
+    {
+      "id": "gen_decimal_operations",
+      "domain_id": "fractions_decimals",
+      "block_types": [
+        "numeric_input",
+        "place_value_chart",
+        "number_line",
+        "error_spotter"
+      ],
+      "applicable_topic_ids": [
+        "g4_decimal_tenths_hundredths",
+        "g5_decimal_operations"
+      ],
+      "parameters": {
+        "decimal_places": {
+          "min": 1,
+          "max": 3
+        },
+        "operations": [
+          "compare",
+          "add",
+          "subtract",
+          "multiply",
+          "divide"
+        ]
+      },
+      "validator": "decimal arithmetic using integer scaling",
+      "distractor_rules": [
+        "misaligned decimal separator",
+        "place shift",
+        "whole-number comparison"
+      ],
+      "integrity_variants": [
+        "money context",
+        "number line",
+        "fraction conversion",
+        "estimate first"
+      ]
+    },
+    {
+      "id": "gen_ratio_percent",
+      "domain_id": "ratios_percent",
+      "block_types": [
+        "ratio_table",
+        "numeric_input",
+        "multiple_choice",
+        "step_order"
+      ],
+      "applicable_topic_ids": [
+        "g5_percent_basic",
+        "g5_ratio_basic",
+        "g6_proportion",
+        "g6_percent_change"
+      ],
+      "parameters": {
+        "whole": {
+          "min": 10,
+          "max": 1000
+        },
+        "percentage": {
+          "values": [
+            5,
+            10,
+            20,
+            25,
+            50,
+            75
+          ]
+        },
+        "ratio_terms": {
+          "min": 1,
+          "max": 20
+        }
+      },
+      "validator": "exact proportion or percentage calculation",
+      "distractor_rules": [
+        "percent treated as raw number",
+        "ratio order reversed",
+        "change applied to wrong base"
+      ],
+      "integrity_variants": [
+        "table",
+        "double number line",
+        "unit rate",
+        "reverse percentage"
+      ]
+    },
+    {
+      "id": "gen_equations",
+      "domain_id": "algebra",
+      "block_types": [
+        "numeric_input",
+        "balance_scale",
+        "step_order",
+        "error_spotter"
+      ],
+      "applicable_topic_ids": [
+        "g5_one_step_equation",
+        "g6_two_step_equation",
+        "g7_linear_equations",
+        "g7_linear_inequalities"
+      ],
+      "parameters": {
+        "solution": {
+          "min": -20,
+          "max": 20
+        },
+        "coefficients": {
+          "min": -12,
+          "max": 12
+        },
+        "guarantee_integer_solution": true
+      },
+      "validator": "symbolic equivalence and substitution",
+      "distractor_rules": [
+        "operation not applied to both sides",
+        "sign error",
+        "inverse operation error",
+        "inequality sign not flipped"
+      ],
+      "integrity_variants": [
+        "balance model",
+        "word problem",
+        "missing step",
+        "solution verification"
+      ]
+    },
+    {
+      "id": "gen_algebraic_expressions",
+      "domain_id": "algebra",
+      "block_types": [
+        "multiple_choice",
+        "matching",
+        "error_spotter",
+        "numeric_input"
+      ],
+      "applicable_topic_ids": [
+        "g5_expression_substitution",
+        "g6_distributive_property",
+        "g7_algebraic_simplification",
+        "g7_monomials_polynomials",
+        "g7_factorization"
+      ],
+      "parameters": {
+        "variables": [
+          "x",
+          "a",
+          "y"
+        ],
+        "coefficient_range": {
+          "min": -12,
+          "max": 12
+        },
+        "degree": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "validator": "symbolic normalization",
+      "distractor_rules": [
+        "unlike terms combined",
+        "exponent added incorrectly",
+        "distribution omitted",
+        "common factor incomplete"
+      ],
+      "integrity_variants": [
+        "area model",
+        "substitution check",
+        "reverse expansion",
+        "classification"
+      ]
+    },
+    {
+      "id": "gen_geometry_measurement",
+      "domain_id": "geometry_measurement",
+      "block_types": [
+        "diagram_choice",
+        "numeric_input",
+        "drag_label",
+        "multiple_choice"
+      ],
+      "applicable_topic_ids": [
+        "g3_perimeter",
+        "g4_unit_conversions",
+        "g4_area_rectangle",
+        "g4_angles",
+        "g6_circle",
+        "g6_volume",
+        "g7_congruent_triangles",
+        "g7_pythagorean",
+        "g7_coordinate_graphs"
+      ],
+      "parameters": {
+        "integer_dimensions": {
+          "min": 2,
+          "max": 30
+        },
+        "units": [
+          "mm",
+          "cm",
+          "m",
+          "km",
+          "cm²",
+          "m²",
+          "cm³"
+        ]
+      },
+      "validator": "formula-specific deterministic geometry calculator",
+      "distractor_rules": [
+        "perimeter vs area",
+        "radius vs diameter",
+        "unit mismatch",
+        "wrong side correspondence"
+      ],
+      "integrity_variants": [
+        "identify needed measure",
+        "estimate before calculate",
+        "reverse missing dimension",
+        "diagram not to scale"
+      ]
+    },
+    {
+      "id": "gen_data_probability",
+      "domain_id": "data_probability",
+      "block_types": [
+        "chart",
+        "table",
+        "multiple_choice",
+        "numeric_input"
+      ],
+      "applicable_topic_ids": [
+        "g6_mean_probability",
+        "g7_data_interpretation"
+      ],
+      "parameters": {
+        "data_points": {
+          "min": 3,
+          "max": 8
+        },
+        "values": {
+          "min": 0,
+          "max": 100
+        },
+        "outcomes": {
+          "min": 2,
+          "max": 12
+        }
+      },
+      "validator": "deterministic statistics and probability functions",
+      "distractor_rules": [
+        "mean vs median confusion",
+        "denominator wrong",
+        "truncated-axis misread",
+        "possible vs probable"
+      ],
+      "integrity_variants": [
+        "change chart scale",
+        "ask claim validity",
+        "construct dataset",
+        "compare two representations"
+      ]
+    },
+    {
+      "id": "gen_word_problem",
+      "domain_id": "word_problems",
+      "block_types": [
+        "known_unknown_sort",
+        "step_order",
+        "multi_select",
+        "numeric_input",
+        "equation_builder"
+      ],
+      "applicable_topic_ids": [
+        "g2_one_step_word",
+        "g3_two_step_word",
+        "g4_multistep_word",
+        "g5_model_word_problem",
+        "g6_proportional_word",
+        "g7_equation_modeling"
+      ],
+      "parameters": {
+        "context_pool": [
+          "училище",
+          "аниме рисунка",
+          "игра",
+          "пазаруване",
+          "спорт",
+          "животни"
+        ],
+        "steps": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "validator": "compose from a known mathematical expression and verify all quantities/units",
+      "distractor_rules": [
+        "keyword operation matching",
+        "irrelevant information",
+        "wrong intermediate unknown",
+        "unit mismatch"
+      ],
+      "integrity_variants": [
+        "change context",
+        "reverse question",
+        "remove keyword",
+        "add irrelevant fact",
+        "ask decomposition only"
+      ]
+    },
+    {
+      "id": "gen_decomposition",
+      "domain_id": "thinking_decomposition",
+      "block_types": [
+        "known_unknown_sort",
+        "step_order",
+        "decomposition_tree",
+        "step_choice",
+        "reflection_choice"
+      ],
+      "applicable_topic_ids": [
+        "g2_problem_parts",
+        "g3_order_steps",
+        "g4_check_solution",
+        "g7_exam_decomposition"
+      ],
+      "parameters": {
+        "subproblem_count": {
+          "min": 2,
+          "max": 5
+        },
+        "include_irrelevant_info": true,
+        "include_life_transfer": true
+      },
+      "validator": "rubric-based: goal, relevant information, valid dependencies, complete reconstruction",
+      "distractor_rules": [
+        "solve final goal first",
+        "irrelevant step",
+        "missing dependency",
+        "partial result treated as final"
+      ],
+      "integrity_variants": [
+        "math task",
+        "school project",
+        "planning task",
+        "error recovery",
+        "choose next action"
+      ]
+    }
+  ]
+}

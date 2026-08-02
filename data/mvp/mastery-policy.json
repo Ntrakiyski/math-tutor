@@ -1,0 +1,71 @@
+{
+  "version": "0.1.0",
+  "states": [
+    "unseen",
+    "observed",
+    "developing",
+    "provisional_mastery",
+    "reliable_mastery",
+    "fragile",
+    "needs_remediation"
+  ],
+  "evidence_weights": {
+    "direct_correct_independent": 1.0,
+    "direct_correct_with_hint": 0.55,
+    "visual_guided_success": 0.35,
+    "novel_transfer_correct": 1.25,
+    "error_diagnosis_correct": 0.8,
+    "decomposition_valid": 1.0,
+    "retention_24h_correct": 1.1,
+    "retention_72h_correct": 1.3,
+    "incorrect_confident": -0.8,
+    "incorrect_guessing": -0.25,
+    "random_click_pattern": -0.1
+  },
+  "transition_rules": {
+    "unseen_to_observed": "one meaningful attempt",
+    "observed_to_developing": "two positive evidence events or successful guided construction",
+    "developing_to_provisional_mastery": "minimum 5/6 mastery slots correct, including direct and novel transfer, with at least 4 independent",
+    "provisional_to_reliable_mastery": "pass one delayed retention check and no critical misconception in latest two attempts",
+    "any_to_fragile": "previous mastery followed by failed delayed or novel-format check",
+    "any_to_needs_remediation": "critical misconception repeated in two distinct representations"
+  },
+  "next_action_rules": [
+    {
+      "when": "two consecutive incorrect attempts with same representation",
+      "action": "switch_representation"
+    },
+    {
+      "when": "three consecutive incorrect attempts or random clicking",
+      "action": "reduce_step_size_and_offer_attainable_success"
+    },
+    {
+      "when": "correct but high surface-dependence risk",
+      "action": "present_novel_format_before_advancing"
+    },
+    {
+      "when": "correct with high confidence and independent",
+      "action": "increase_variation_or_advance"
+    },
+    {
+      "when": "correct with low confidence",
+      "action": "one_confirmation_item"
+    },
+    {
+      "when": "session attention decline",
+      "action": "finish_current_micro_goal_and_stop"
+    }
+  ],
+  "placement_rules": {
+    "start_grade": 4,
+    "move_up_threshold": 0.8,
+    "move_down_threshold": 0.5,
+    "same_grade_deep_check_range": [
+      0.5,
+      0.79
+    ],
+    "placement_band_rule": "highest grade with >=0.70 overall and no diagnostic-critical domain below 0.50",
+    "learning_start_rule": "lowest diagnostic-critical prerequisite below 0.60 on the path to the learner's current goal",
+    "learner_facing_label": "recommended starting band, never a fixed identity label"
+  }
+}

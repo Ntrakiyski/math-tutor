@@ -1,0 +1,75 @@
+{
+  "version": "0.1.0",
+  "achievements": [
+    {
+      "id": "first_step",
+      "name_bg": "Първа стъпка",
+      "description_bg": "Завърши първата учебна интеракция.",
+      "trigger": "first_completed_block",
+      "xp": 10
+    },
+    {
+      "id": "problem_breaker",
+      "name_bg": "Разбивач на проблеми",
+      "description_bg": "Раздели непозната задача на полезни по-малки части.",
+      "trigger": "valid_decomposition_without_full_scaffold",
+      "xp": 30
+    },
+    {
+      "id": "trap_detector",
+      "name_bg": "Ловец на капани",
+      "description_bg": "Разпозна подвеждащ или повърхностно подобен отговор.",
+      "trigger": "surface_trap_identified",
+      "xp": 25
+    },
+    {
+      "id": "strategy_switcher",
+      "name_bg": "Смяна на стратегия",
+      "description_bg": "Смени подхода, когато първият не помогна.",
+      "trigger": "representation_switch_then_success",
+      "xp": 25
+    },
+    {
+      "id": "no_hint_win",
+      "name_bg": "Без подсказка",
+      "description_bg": "Реши нова задача самостоятелно.",
+      "trigger": "novel_item_correct_no_hint",
+      "xp": 35
+    },
+    {
+      "id": "comeback",
+      "name_bg": "Завръщане",
+      "description_bg": "Продължи и успя след няколко грешки.",
+      "trigger": "success_after_two_failures",
+      "xp": 30
+    },
+    {
+      "id": "explain_it",
+      "name_bg": "Мога да обясня",
+      "description_bg": "Показа защо решението е вярно.",
+      "trigger": "reasoning_evidence_pass",
+      "xp": 30
+    },
+    {
+      "id": "memory_keeper",
+      "name_bg": "Пазител на знанието",
+      "description_bg": "Запомни умение при отложена проверка.",
+      "trigger": "retention_check_pass",
+      "xp": 40
+    },
+    {
+      "id": "new_situation",
+      "name_bg": "Нова ситуация",
+      "description_bg": "Използва познат принцип в непознат контекст.",
+      "trigger": "novel_transfer_pass",
+      "xp": 40
+    },
+    {
+      "id": "less_help",
+      "name_bg": "Все по-самостоятелна",
+      "description_bg": "Реши със значително по-малко помощ от предишния път.",
+      "trigger": "support_level_reduced",
+      "xp": 35
+    }
+  ]
+}

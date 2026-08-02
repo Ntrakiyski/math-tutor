@@ -1,0 +1,118 @@
+{
+  "version": "0.1.0",
+  "last_checked": "2026-08-02",
+  "policy": "Store source metadata and links in the public repository. Do not commit raw third-party PDFs until reuse and redistribution status is reviewed.",
+  "sources": [
+    {
+      "id": "mon_curriculum_g4",
+      "type": "official_curriculum",
+      "grade": 4,
+      "title_bg": "Учебни програми за IV клас — математика",
+      "url": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/iv-klas/",
+      "status": "catalogued_not_ingested",
+      "intended_use": "official outcomes and terminology"
+    },
+    {
+      "id": "mon_curriculum_g5",
+      "type": "official_curriculum",
+      "grade": 5,
+      "title_bg": "Учебни програми за V клас — математика",
+      "url": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/v-klas/",
+      "status": "catalogued_not_ingested",
+      "intended_use": "official outcomes and terminology"
+    },
+    {
+      "id": "mon_curriculum_g6",
+      "type": "official_curriculum",
+      "grade": 6,
+      "title_bg": "Учебни програми за VI клас — математика",
+      "url": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/arhiv-na-uchebni-programi-po-klasove/uchebni-programi-za-vi-klas/",
+      "status": "catalogued_not_ingested",
+      "intended_use": "official outcomes and terminology"
+    },
+    {
+      "id": "mon_curriculum_g7",
+      "type": "official_curriculum",
+      "grade": 7,
+      "title_bg": "Учебни програми за VII клас — математика",
+      "url": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/vii-klas/",
+      "status": "catalogued_not_ingested",
+      "intended_use": "official outcomes and terminology"
+    },
+    {
+      "id": "mon_curriculum_g8",
+      "type": "official_curriculum",
+      "grade": 8,
+      "title_bg": "Учебни програми за VIII клас — математика",
+      "url": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/viii-klas/",
+      "status": "catalogued_not_ingested",
+      "intended_use": "official outcomes and terminology"
+    },
+    {
+      "id": "mon_nvo_g4_archive",
+      "type": "official_exam_archive",
+      "grade": 4,
+      "title_bg": "Тестове и верни отговори от НВО за IV клас по години",
+      "url": "https://www.mon.bg/obshto-obrazovanie/natsionalno-vanshno-otsenyavane-nvo/nvo-za-iv-klas/testove-i-verni-otgovori-ot-nvo-za-iv-klas-po-godini/",
+      "latest_known_entry": "Тест и ключ по математика, публикувани 04.06.2026",
+      "status": "catalogued_not_itemized",
+      "intended_use": "exam calibration, not direct copying"
+    },
+    {
+      "id": "mon_nvo_g7_archive",
+      "type": "official_exam_archive",
+      "grade": 7,
+      "title_bg": "Тестове и верни отговори от НВО за VII клас по години",
+      "url": "https://www.mon.bg/obshto-obrazovanie/natsionalno-vanshno-otsenyavane-nvo/nvo-za-vii-klas/testove-i-verni-otgovori-ot-nvo-za-vii-klas-po-godini/",
+      "latest_known_entry": "НВО по математика за 7 клас, публикувано 19.06.2026",
+      "status": "catalogued_not_itemized",
+      "intended_use": "exam calibration, not direct copying"
+    },
+    {
+      "id": "mon_nvo_g7_model_2025_2026",
+      "type": "official_exam_model",
+      "grade": 7,
+      "title_bg": "Модел на НВО по математика в края на VII клас за 2025–2026",
+      "url": "https://www.mon.bg/obshto-obrazovanie/natsionalno-vanshno-otsenyavane-nvo/nvo-za-vii-klas/model-na-nvo-za-vii-klas/",
+      "latest_known_entry": "Модел и примерни задачи с кратък свободен отговор, публикувани 12.02.2026",
+      "status": "catalogued_not_itemized",
+      "intended_use": "format and scoring calibration"
+    },
+    {
+      "id": "mon_olympiads_archive",
+      "type": "official_competition_archive",
+      "grade_range": [
+        4,
+        12
+      ],
+      "title_bg": "Изпитни материали и решения от олимпиади и състезания",
+      "url": "https://www.mon.bg/dyasno-menyu/olimpiadi-i-sastezaniya/izpitni-materiali-i-resheniya/",
+      "status": "catalogued_not_itemized",
+      "intended_use": "challenge-mode research"
+    },
+    {
+      "id": "mon_textbook_lists",
+      "type": "approved_textbook_metadata",
+      "grade_range": [
+        4,
+        8
+      ],
+      "title_bg": "Списъци на одобрени учебници и учебни комплекти",
+      "url": "https://www.mon.bg/dyasno-menyu/uchebnitsi/spisatsi-na-poznavatelni-knizhki-uchebnitsi-i-uchebni-komplekti-koito-mogat-da-se-polzvat-v-sistemata-na-preduchilishtnoto-i-uchilishtnoto-obrazovanie/",
+      "status": "catalogued_metadata_only",
+      "intended_use": "identify current editions and publishers"
+    },
+    {
+      "id": "mon_digital_backpack",
+      "type": "reference_platform",
+      "grade_range": [
+        1,
+        12
+      ],
+      "title_bg": "Дигитална раница и електронни учебници",
+      "url": "https://edu.mon.bg/",
+      "status": "reference_only_no_automated_ingestion",
+      "intended_use": "manual curriculum and textbook comparison"
+    }
+  ]
+}
