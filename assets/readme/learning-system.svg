@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">The adaptive math learning system</title>
+  <desc id="desc">Five connected models feed an adaptive teaching decision that becomes an interactive learning experience and new evidence.</desc>
+  <rect width="1200" height="590" rx="28" fill="#F7F9FC"/>
+  <text x="58" y="58" fill="#162235" font-size="38" font-weight="750" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">The learning system</text>
+  <text x="58" y="91" fill="#62738A" font-size="19" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Five models answer one question: what should this learner experience next?</text>
+
+  <g transform="translate(58 132)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g>
+      <rect width="208" height="116" rx="18" fill="#E8FBF7" stroke="#9DE3D6"/>
+      <text x="20" y="34" fill="#0C766B" font-size="14" font-weight="750" letter-spacing="1.2">01 · TARGET</text>
+      <text x="20" y="66" fill="#162235" font-size="21" font-weight="720">Expected</text>
+      <text x="20" y="91" fill="#50657A" font-size="17">competency</text>
+    </g>
+    <g transform="translate(226 0)">
+      <rect width="208" height="116" rx="18" fill="#EEF1FF" stroke="#BEC7FA"/>
+      <text x="20" y="34" fill="#5865C4" font-size="14" font-weight="750" letter-spacing="1.2">02 · NOW</text>
+      <text x="20" y="66" fill="#162235" font-size="21" font-weight="720">Current math</text>
+      <text x="20" y="91" fill="#50657A" font-size="17">state</text>
+    </g>
+    <g transform="translate(452 0)">
+      <rect width="208" height="116" rx="18" fill="#FFF5EA" stroke="#F5CCA2"/>
+      <text x="20" y="34" fill="#B26A2D" font-size="14" font-weight="750" letter-spacing="1.2">03 · HOW</text>
+      <text x="20" y="66" fill="#162235" font-size="21" font-weight="720">Learner</text>
+      <text x="20" y="91" fill="#50657A" font-size="17">persona</text>
+    </g>
+    <g transform="translate(678 0)">
+      <rect width="208" height="116" rx="18" fill="#EAF5FF" stroke="#B7D8F4"/>
+      <text x="20" y="34" fill="#2671A9" font-size="14" font-weight="750" letter-spacing="1.2">04 · NEXT</text>
+      <text x="20" y="66" fill="#162235" font-size="21" font-weight="720">Active learning</text>
+      <text x="20" y="91" fill="#50657A" font-size="17">plan</text>
+    </g>
+    <g transform="translate(904 0)">
+      <rect width="180" height="116" rx="18" fill="#F4F0FA" stroke="#D5C7E8"/>
+      <text x="20" y="34" fill="#72549C" font-size="14" font-weight="750" letter-spacing="1.2">05 · PROOF</text>
+      <text x="20" y="66" fill="#162235" font-size="21" font-weight="720">Learning</text>
+      <text x="20" y="91" fill="#50657A" font-size="17">evidence</text>
+    </g>
+
+    <path d="M104 138 V177 H994 V138" fill="none" stroke="#B6C2D0" stroke-width="2"/>
+    <path d="M217 177 V215" stroke="#B6C2D0" stroke-width="2"/>
+    <path d="M556 177 V215" stroke="#B6C2D0" stroke-width="2"/>
+    <path d="M895 177 V215" stroke="#B6C2D0" stroke-width="2"/>
+
+    <g transform="translate(260 214)">
+      <rect width="566" height="108" rx="22" fill="#111C2D"/>
+      <text x="283" y="43" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="750" letter-spacing="1.6">ADAPTIVE TEACHING DECISION</text>
+      <text x="283" y="75" text-anchor="middle" fill="#F5F8FC" font-size="20" font-weight="720">Choose the next objective, strategy and support</text>
+    </g>
+
+    <path d="M543 322 V370" stroke="#546A81" stroke-width="3"/>
+    <path d="M535 360 L543 370 L551 360" fill="none" stroke="#546A81" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(148 370)">
+      <rect width="792" height="78" rx="20" fill="#FFFFFF" stroke="#C9D3DE" stroke-width="2"/>
+      <text x="396" y="32" text-anchor="middle" fill="#162235" font-size="22" font-weight="720">Chat + interactive widget + visual explanation</text>
+      <text x="396" y="57" text-anchor="middle" fill="#62738A" font-size="17">The learner acts; the system observes; the model improves.</text>
+    </g>
+  </g>
+</svg>
