@@ -1,0 +1,16 @@
+{
+  "last_checked": "2026-08-02",
+  "scope": "Bulgarian mathematics grades 4-8",
+  "curriculum_pages": {
+    "grade_4": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/iv-klas/",
+    "grade_5": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/v-klas/",
+    "grade_6_archive": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/arhiv-na-uchebni-programi-po-klasove/uchebni-programi-za-vi-klas/",
+    "grade_7": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/vii-klas/",
+    "grade_8": "https://www.mon.bg/obshto-obrazovanie/uchebni-planove-i-programi-2/uchebni-programi/uchebni-programi-za-obsthoobrazovatelna-podgotovka/viii-klas/"
+  },
+  "assessment_pages": {
+    "grade_7_model": "https://www.mon.bg/obshto-obrazovanie/natsionalno-vanshno-otsenyavane-nvo/nvo-za-vii-klas/model-na-nvo-za-vii-klas/",
+    "grade_7_tests_by_year": "https://www.mon.bg/obshto-obrazovanie/natsionalno-vanshno-otsenyavane-nvo/nvo-za-vii-klas/testove-i-verni-otgovori-ot-nvo-za-vii-klas-po-godini/",
+    "olympiad_materials": "https://www.mon.bg/dyasno-menyu/olimpiadi-i-sastezaniya/izpitni-materiali-i-resheniya/"
+  }
+}
