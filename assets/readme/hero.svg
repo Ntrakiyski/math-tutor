@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Math Tutor — adaptive mathematics learning for Bulgarian grades 4 to 8</title>
+  <desc id="desc">A dark editorial hero showing a personalized learning path from expected knowledge through current understanding to the next learning experience.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FDBA74" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="#08111F"/>
+  <path d="M0 338 C210 300 328 410 548 352 C746 300 886 365 1200 286 L1200 420 L0 420 Z" fill="#0D1A2B"/>
+  <path d="M0 80 H1200" stroke="#1C2A3D"/>
+
+  <g transform="translate(62 46)">
+    <text x="0" y="0" fill="#5EEAD4" font-size="18" font-weight="700" letter-spacing="2.4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ADAPTIVE MATHEMATICS · BULGARIAN GRADES 4–8</text>
+    <text x="0" y="82" fill="#F6F8FC" font-size="72" font-weight="760" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">math tutor</text>
+    <text x="0" y="134" fill="#C8D2E0" font-size="25" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Find the missing foundation.</text>
+    <text x="0" y="170" fill="#C8D2E0" font-size="25" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Teach the next right step.</text>
+    <text x="0" y="206" fill="#C8D2E0" font-size="25" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Learn how each child learns.</text>
+
+    <g transform="translate(0 252)">
+      <rect width="176" height="42" rx="21" fill="#102838" stroke="#2A4F59"/>
+      <text x="88" y="27" text-anchor="middle" fill="#8FF3E5" font-size="16" font-weight="650" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">PERSONALIZED</text>
+      <rect x="190" width="158" height="42" rx="21" fill="#2C2118" stroke="#5A412B"/>
+      <text x="269" y="27" text-anchor="middle" fill="#FFD0A4" font-size="16" font-weight="650" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">INTERACTIVE</text>
+      <rect x="362" width="154" height="42" rx="21" fill="#172035" stroke="#334566"/>
+      <text x="439" y="27" text-anchor="middle" fill="#B9C8E8" font-size="16" font-weight="650" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">EVIDENCE-LED</text>
+    </g>
+  </g>
+
+  <g transform="translate(682 44)">
+    <rect width="454" height="330" rx="24" fill="#0B1727" stroke="#24344A" stroke-width="2"/>
+    <text x="28" y="38" fill="#8FA3B8" font-size="15" letter-spacing="1.7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ONE LEARNER · ONE EVOLVING PATH</text>
+
+    <path d="M54 88 V236" stroke="url(#edge)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M54 236 V270" stroke="#3B536E" stroke-width="2" stroke-dasharray="7 7"/>
+
+    <g transform="translate(28 70)">
+      <circle cx="26" cy="18" r="15" fill="#5EEAD4"/>
+      <circle cx="26" cy="18" r="5" fill="#08111F"/>
+      <text x="58" y="14" fill="#F5F8FC" font-size="19" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Expected knowledge</text>
+      <text x="58" y="38" fill="#8095AA" font-size="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Curriculum and exam goals</text>
+    </g>
+
+    <g transform="translate(28 140)">
+      <circle cx="26" cy="18" r="15" fill="#A7B8FF"/>
+      <circle cx="26" cy="18" r="5" fill="#08111F"/>
+      <text x="58" y="14" fill="#F5F8FC" font-size="19" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Current state</text>
+      <text x="58" y="38" fill="#8095AA" font-size="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Strengths, gaps and misconceptions</text>
+    </g>
+
+    <g transform="translate(28 210)">
+      <circle cx="26" cy="18" r="15" fill="#FDBA74"/>
+      <circle cx="26" cy="18" r="5" fill="#08111F"/>
+      <text x="58" y="14" fill="#F5F8FC" font-size="19" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Next learning step</text>
+      <text x="58" y="38" fill="#8095AA" font-size="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Personalized to this learner</text>
+    </g>
+
+    <g transform="translate(28 270)">
+      <rect width="398" height="44" rx="14" fill="#101F31" stroke="#2B415A"/>
+      <circle cx="24" cy="22" r="13" fill="#183F42"/>
+      <path d="M18 22 l4 4 l8 -10" fill="none" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="18" fill="#F5F8FC" font-size="16" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Evidence updates the path</text>
+      <text x="48" y="35" fill="#8095AA" font-size="13" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Every answer, hint and retry matters</text>
+    </g>
+  </g>
+</svg>
